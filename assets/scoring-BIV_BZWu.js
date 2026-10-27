@@ -1,0 +1,1 @@
+const g=(t,e)=>{const a=new Set(t),h=new Set(e),o=t.filter(n=>h.has(n)),l=e.filter(n=>!a.has(n)),s=t.filter(n=>!h.has(n)),c=t.length===0?0:Math.max(0,(o.length-l.length)/t.length);return{correctItems:t,pickedItems:e,correctPicked:o,missedCorrect:s,wrongPicked:l,exact:s.length===0&&l.length===0,scoreRatio:c}};export{g as s};

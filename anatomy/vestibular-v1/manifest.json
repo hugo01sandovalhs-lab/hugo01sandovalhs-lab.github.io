@@ -1,0 +1,934 @@
+{
+  "packId": "vestibular-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "coverage": "Bilateral cochlea and intact Vestibule source objects; no separately identified semicircular canals or otolith organs. Optional partial nerve and central context.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "Named inner-ear source objects retained intact in original world coordinates; replacement materials; mobile decimation only when source component/open-edge counts survive. No anatomical reconstruction."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "sensory",
+      "nameFr": "Oreille interne · objets source",
+      "visibleByDefault": true
+    },
+    {
+      "id": "nervous",
+      "nameFr": "Contexte VIII · partiel",
+      "visibleByDefault": false
+    },
+    {
+      "id": "central-nervous",
+      "nameFr": "Tronc cérébral / cervelet · contexte partiel",
+      "visibleByDefault": false
+    }
+  ],
+  "structures": [
+    {
+      "id": "organ.cochlea.l",
+      "nameFr": "Cochlée · gauche",
+      "internationalName": "Cochlea.l",
+      "sourceObject": "Cochlea.l",
+      "sourceParent": "Internal ear.g",
+      "parent": "vestibular.group",
+      "system": "sensory",
+      "region": "vestibular",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Cochlea.l",
+          "geometrySha256": "27e5ece345cb8a526f28bdfacab1692612cc552bdc926f0260e7bb1194e9e9f3",
+          "sourceParent": "Internal ear.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 1,
+      "sourceTriangles": 6168,
+      "sourceBounds": {
+        "min": [
+          0.036286,
+          -0.004902,
+          1.576073
+        ],
+        "max": [
+          0.042722,
+          0.004937,
+          1.584075
+        ]
+      },
+      "limitation": "Objet source intact, ouvert ; subdivisions non identifiées. Aucun canal, utricule, saccule ou ampoule sélectionnable."
+    },
+    {
+      "id": "organ.cochlea.r",
+      "nameFr": "Cochlée · droite",
+      "internationalName": "Cochlea.r",
+      "sourceObject": "Cochlea.r",
+      "sourceParent": "Internal ear.g",
+      "parent": "vestibular.group",
+      "system": "sensory",
+      "region": "vestibular",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Cochlea.r",
+          "geometrySha256": "69e108101f36fea402cee266c49a373ffc5de07b6701dd927b06a1f39eb06674",
+          "sourceParent": "Internal ear.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 1,
+      "sourceTriangles": 6168,
+      "sourceBounds": {
+        "min": [
+          -0.042722,
+          -0.004902,
+          1.576073
+        ],
+        "max": [
+          -0.036286,
+          0.004937,
+          1.584075
+        ]
+      },
+      "limitation": "Objet source intact, ouvert ; subdivisions non identifiées. Aucun canal, utricule, saccule ou ampoule sélectionnable."
+    },
+    {
+      "id": "organ.vestibule-source.l",
+      "nameFr": "Vestibule · objet source · gauche",
+      "internationalName": "Vestibule.l",
+      "sourceObject": "Vestibule.l",
+      "sourceParent": "Internal ear.g",
+      "parent": "vestibular.group",
+      "system": "sensory",
+      "region": "vestibular",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibule.l",
+          "geometrySha256": "786054b3dccec23cc696f399abe2a2bb93614e0f236ff23a3206d274533f4010",
+          "sourceParent": "Internal ear.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 1,
+      "sourceTriangles": 8580,
+      "sourceBounds": {
+        "min": [
+          0.034637,
+          0.002121,
+          1.577184
+        ],
+        "max": [
+          0.044862,
+          0.014125,
+          1.590037
+        ]
+      },
+      "limitation": "Objet source intact, ouvert ; subdivisions non identifiées. Aucun canal, utricule, saccule ou ampoule sélectionnable."
+    },
+    {
+      "id": "organ.vestibule-source.r",
+      "nameFr": "Vestibule · objet source · droite",
+      "internationalName": "Vestibule.r",
+      "sourceObject": "Vestibule.r",
+      "sourceParent": "Internal ear.g",
+      "parent": "vestibular.group",
+      "system": "sensory",
+      "region": "vestibular",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibule.r",
+          "geometrySha256": "234760ce936e15bb812cb60ebca14104afa6427049866750d1ecbe164228d126",
+          "sourceParent": "Internal ear.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 1,
+      "sourceTriangles": 8580,
+      "sourceBounds": {
+        "min": [
+          -0.044862,
+          0.002121,
+          1.577184
+        ],
+        "max": [
+          -0.034637,
+          0.014125,
+          1.590037
+        ]
+      },
+      "limitation": "Objet source intact, ouvert ; subdivisions non identifiées. Aucun canal, utricule, saccule ou ampoule sélectionnable."
+    },
+    {
+      "id": "nerve.cn08.source-group.l",
+      "nameFr": "Vestibulocochlear nerve (VIII).l · source group",
+      "internationalName": "Vestibulocochlear nerve (VIII).l",
+      "sourceObject": "Vestibulocochlear nerve (VIII).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "vestibular.group",
+      "system": "nervous",
+      "region": "vestibular",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibulocochlear nerve (VIII).l",
+          "geometrySha256": "c9207ab13f3283b27d5f8eab0e1a0b6918a34772d12e0c359bfb97a4b5f1eda5",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 6,
+      "sourceTriangles": 1768,
+      "sourceBounds": {
+        "min": [
+          0.007171,
+          0.004789,
+          1.576639
+        ],
+        "max": [
+          0.021572,
+          0.016054,
+          1.582002
+        ]
+      },
+      "limitation": "Groupe source intact ; composants internes non attribués, trajet et connexions anatomiques non vérifiés."
+    },
+    {
+      "id": "nerve.cn08.source-group.r",
+      "nameFr": "Vestibulocochlear nerve (VIII).r · source group",
+      "internationalName": "Vestibulocochlear nerve (VIII).r",
+      "sourceObject": "Vestibulocochlear nerve (VIII).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "vestibular.group",
+      "system": "nervous",
+      "region": "vestibular",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibulocochlear nerve (VIII).r",
+          "geometrySha256": "9d858e2244377199729c0f959e1237b51c42c1f377f06a9845857d889fca7623",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 6,
+      "sourceTriangles": 1768,
+      "sourceBounds": {
+        "min": [
+          -0.021572,
+          0.004789,
+          1.576639
+        ],
+        "max": [
+          -0.007171,
+          0.016054,
+          1.582002
+        ]
+      },
+      "limitation": "Groupe source intact ; composants internes non attribués, trajet et connexions anatomiques non vérifiés."
+    },
+    {
+      "id": "za.vestibular-nerve-l",
+      "nameFr": "Vestibular nerve.l",
+      "internationalName": "Vestibular nerve.l",
+      "sourceObject": "Vestibular nerve.l",
+      "sourceParent": "Vestibulocochlear nerve (VIII).l",
+      "parent": "vestibular.group",
+      "system": "nervous",
+      "region": "vestibular",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibular nerve.l",
+          "geometrySha256": "8e8d4e62c6e2bdcec5616ff0b67124b4e91651c8c93b027fc40b10e0b2fda874",
+          "sourceParent": "Vestibulocochlear nerve (VIII).l"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 12,
+      "sourceTriangles": 4688,
+      "sourceBounds": {
+        "min": [
+          0.019328,
+          0.002424,
+          1.578824
+        ],
+        "max": [
+          0.040558,
+          0.005708,
+          1.58357
+        ]
+      },
+      "limitation": "Groupe source intact ; composants internes non attribués, trajet et connexions anatomiques non vérifiés."
+    },
+    {
+      "id": "za.vestibular-nerve-r",
+      "nameFr": "Vestibular nerve.r",
+      "internationalName": "Vestibular nerve.r",
+      "sourceObject": "Vestibular nerve.r",
+      "sourceParent": "Vestibulocochlear nerve (VIII).r",
+      "parent": "vestibular.group",
+      "system": "nervous",
+      "region": "vestibular",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibular nerve.r",
+          "geometrySha256": "d71a14ad1603cd5915ca493e6e2135f871ed971a8f418f0b77c07b878599db7d",
+          "sourceParent": "Vestibulocochlear nerve (VIII).r"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 12,
+      "sourceTriangles": 4688,
+      "sourceBounds": {
+        "min": [
+          -0.040558,
+          0.002424,
+          1.578824
+        ],
+        "max": [
+          -0.019328,
+          0.005708,
+          1.58357
+        ]
+      },
+      "limitation": "Groupe source intact ; composants internes non attribués, trajet et connexions anatomiques non vérifiés."
+    },
+    {
+      "id": "za.cochlear-nerve-l",
+      "nameFr": "Cochlear nerve.l",
+      "internationalName": "Cochlear nerve.l",
+      "sourceObject": "Cochlear nerve.l",
+      "sourceParent": "Vestibulocochlear nerve (VIII).l",
+      "parent": "vestibular.group",
+      "system": "nervous",
+      "region": "vestibular",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Cochlear nerve.l",
+          "geometrySha256": "dcddce006cc445181f14027d9c4cc4e6ef8e7e2f16fd227e4d7b0274fbcd4b06",
+          "sourceParent": "Vestibulocochlear nerve (VIII).l"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "componentCount": 3,
+      "sourceTriangles": 884,
+      "sourceBounds": {
+        "min": [
+          0.019328,
+          -0.002244,
+          1.578527
+        ],
+        "max": [
+          0.039055,
+          0.005089,
+          1.58192
+        ]
+      },
+      "limitation": "Groupe source intact ; composants internes non attribués, trajet et connexions anatomiques non vérifiés. Homologue droit non identifié explicitement dans la source."
+    },
+    {
+      "id": "organ.midbrain",
+      "nameFr": "Mésencéphale",
+      "internationalName": "Midbrain",
+      "sourceObject": "Midbrain.g",
+      "sourceObjects": [
+        "Midbrain.l",
+        "Midbrain.r"
+      ],
+      "parent": "za.group.brainstem",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Midbrain.l",
+          "geometrySha256": "c115eddd03b6d1d998342e265046bcdb957922ea7967e80cb400705d1868d0d4",
+          "sourceParent": "Midbrain.g"
+        },
+        {
+          "sourceObject": "Midbrain.r",
+          "geometrySha256": "ed01dda70b3ad55fd63583f9ed35b4debbe5b4e45c026bb5791304661810c1b0",
+          "sourceParent": "Midbrain.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Two dangling faces (3057, 5827) removed per source half; no vertex displacement.",
+      "limitation": "Bilateral source halves grouped; human anatomical review pending.",
+      "sourceTriangles": 12180,
+      "sourceBounds": {
+        "min": [
+          -0.014274338260293007,
+          -0.00725344056263566,
+          1.600919246673584
+        ],
+        "max": [
+          0.014274457469582558,
+          0.021229226142168045,
+          1.6174613237380981
+        ]
+      }
+    },
+    {
+      "id": "organ.medulla-oblongata",
+      "nameFr": "Bulbe rachidien",
+      "internationalName": "Medulla oblongata",
+      "sourceObject": "Brainstem.g",
+      "sourceObjects": [
+        "Medulla oblongata.l",
+        "Medulla oblongata.r"
+      ],
+      "parent": "za.group.brainstem",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Medulla oblongata.l",
+          "geometrySha256": "0bfc0e7d4a6d2d83bc351d7ac9b1659602dcb2080f71e9e493aaa965c7f88888",
+          "sourceParent": "Brainstem.g"
+        },
+        {
+          "sourceObject": "Medulla oblongata.r",
+          "geometrySha256": "7cf7873c1b9331683ac64887e0d1b46e0ba53efd2c1e1c0368eb29f4a811a846",
+          "sourceParent": "Brainstem.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Source assembly only; no reconstruction or displacement.",
+      "limitation": "Bilateral source halves grouped; human anatomical review pending.",
+      "sourceTriangles": 12160,
+      "sourceBounds": {
+        "min": [
+          -0.013010615482926369,
+          0.003898702096194029,
+          1.5388015508651733
+        ],
+        "max": [
+          0.01301073469221592,
+          0.03612752631306648,
+          1.578875184059143
+        ]
+      }
+    },
+    {
+      "id": "organ.cerebellum-partial",
+      "nameFr": "Cervelet · groupe source partiel",
+      "internationalName": "Cerebellum (partial source assembly)",
+      "sourceObject": "Cerebellum.g",
+      "sourceObjects": [
+        "Anterior quadrangular lobule.l",
+        "Anterior quadrangular lobule.r",
+        "Biventral lobule.l",
+        "Biventral lobule.r",
+        "Central lobule",
+        "Culmen",
+        "Declive",
+        "Flocculus.l",
+        "Flocculus.r",
+        "Folium of vermis",
+        "Gracile lobule.l",
+        "Gracile lobule.r",
+        "Inferior semilunar lobule.l",
+        "Inferior semilunar lobule.r",
+        "Lingula of cerebellum",
+        "Nodule of vermis",
+        "Peduncle of flocculus.l",
+        "Peduncle of flocculus.r",
+        "Posterior quadrangular lobule.l",
+        "Posterior quadrangular lobule.r",
+        "Pyramis of vermis",
+        "Superior cerebellar peduncle.l",
+        "Superior cerebellar peduncle.r",
+        "Superior semilunar lobule.l",
+        "Superior semilunar lobule.r",
+        "Tonsil of cerebellum.l",
+        "Tonsil of cerebellum.r",
+        "Tuber of vermis",
+        "Uvula of vermis",
+        "Wing of central lobule.l",
+        "Wing of central lobule.r"
+      ],
+      "parent": "za.group.cerebellum",
+      "system": "central-nervous",
+      "region": "cerebellum",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "PARTIAL",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Anterior quadrangular lobule.l",
+          "geometrySha256": "3dc6fe510fbc6f44170ec32d3239da3809f0a01139c2e35fe299fb09218bda0c",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Anterior quadrangular lobule.r",
+          "geometrySha256": "416f77532e624aba2cd29aa1a09d89cdd1c8f68987cf60856f54d722e80fa6a7",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Biventral lobule.l",
+          "geometrySha256": "042cc879f01c281838640026bae3b6d89d1148c6766df1fd50d6621c937541f9",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Biventral lobule.r",
+          "geometrySha256": "639ddefb37a32957e004ce0b900e6fa517bbaabccb2176e209860ae3e8753284",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Central lobule",
+          "geometrySha256": "a51edad309975179fa0b9fd0b40cab650c2ea0bb76fa1a7a1cc545e96205ff3b",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Culmen",
+          "geometrySha256": "b19c45b1747f15d967acf2d7cbc8329f8550668f34a44e5997db11137922b6f2",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Declive",
+          "geometrySha256": "ce83181fb7a865e04fd023c6d89b4d94206dc3c938b8f7788e2d70c3de9a8fed",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Flocculus.l",
+          "geometrySha256": "efd2b30f14739881d4b1be8f1430a55779877f63da54fab9d0396f64f0ce7dff",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Flocculus.r",
+          "geometrySha256": "ff42f7c5934461bbab54ee0b1dbd5dcca95a7eaf911b6b3c8c62ce1d02537317",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Folium of vermis",
+          "geometrySha256": "22f34b8bbdb93c77c83c50d7adf5f193ed4ae39656063459a050a677d33c7284",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Gracile lobule.l",
+          "geometrySha256": "0b60c5aaa646f5d27cb1b6542243ad8045ac8130b0b241f1966e04a7b32101b5",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Gracile lobule.r",
+          "geometrySha256": "bb45eb91a128f2e524ee1ad888927ec72701ed1a63132fdb73cf80d8449158b5",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Inferior semilunar lobule.l",
+          "geometrySha256": "cd9f8d571569521fe066c6d346741d9af1fdc5f78c30755ec126a1e2146fcbb8",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Inferior semilunar lobule.r",
+          "geometrySha256": "37bb9b58a0684f7a3396fc2d373ba77bcaff77e2e9c446112121e8e25b86873f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Lingula of cerebellum",
+          "geometrySha256": "ab742f22feccd3f17ce93b7c4ca3436f802a91a43089ba076515958c0f16c564",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Nodule of vermis",
+          "geometrySha256": "1125438bed7281f59cecc240b55945d9b9875109ee7b0c6e966b4135ff438972",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Peduncle of flocculus.l",
+          "geometrySha256": "65313d1b0a516008227ae8147877687ace27ac5f2b6526338cc67f31a8cd1115",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Peduncle of flocculus.r",
+          "geometrySha256": "74ca69559d6d57be5b967cfbce1afc77ea4d741172fbb3ddc3d82938ac2944f7",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Posterior quadrangular lobule.l",
+          "geometrySha256": "e7f6781df99b508b8b64f5619a6b9f6fc1e07c3bcfa8a1b518dcf06cc5ff558c",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Posterior quadrangular lobule.r",
+          "geometrySha256": "da737b4a7b9cfb7b492ac6237433ae92b0fef96b5107fa6c60d365623e5fb558",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Pyramis of vermis",
+          "geometrySha256": "92c919e0f2d167527872aafd13301a3ca60634ddb18627668e566b39e09c70cc",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior cerebellar peduncle.l",
+          "geometrySha256": "04b78f1500d6e2d10485f1c82ebcb8601f2be5c17e84342d81ce9b690ae04b49",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior cerebellar peduncle.r",
+          "geometrySha256": "2fd63d46c317b88b8c69c7b6f91df4f84516222ea267d4c7ead1c300b4869c6f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior semilunar lobule.l",
+          "geometrySha256": "2ff72b21d49cb5d87b2f5c017b195625812e0f8ec1d751953545dcfc40fac158",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior semilunar lobule.r",
+          "geometrySha256": "46cf8d055b7dcda7b95060e32dfc38e0a072f5217f4a949f5ff0e864d476c3ef",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tonsil of cerebellum.l",
+          "geometrySha256": "bf30b9876b7c40ac2d0c87e92eeea7a26de404a20aef71ffc20ce7d8975300d2",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tonsil of cerebellum.r",
+          "geometrySha256": "d67782f0abf45df9ead064318e6ea8d9f082342fd5cb7338b59d94a9283a6c75",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tuber of vermis",
+          "geometrySha256": "35cbeeddef022441a508064443403f27eb1b76ba732877c5e9cd99712dfe370f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Uvula of vermis",
+          "geometrySha256": "49ad2ee71a60ecde0b62cb609b8d54b5ed0655552b688bc378628d9977b5521b",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Wing of central lobule.l",
+          "geometrySha256": "ab8288d8bd45dfaed2347653e6f2c10dafff08d73ef0f71a2dab28750b3a4fd8",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Wing of central lobule.r",
+          "geometrySha256": "a385077fd7d0efe40fdcf9b21882f09657d9718514b11ebf125de5a3f2496ef4",
+          "sourceParent": "Cerebellum.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Source assembly only; no reconstruction or displacement.",
+      "limitation": "31 retained source members; peduncle bases excluded. No complete envelope, hemisphere, vermis or independently identified fine components asserted.",
+      "sourceTriangles": 140417,
+      "sourceBounds": {
+        "min": [
+          -0.049125656485557556,
+          0.009124074131250381,
+          1.5602279901504517
+        ],
+        "max": [
+          0.04912564158439636,
+          0.0801280066370964,
+          1.61314058303833
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "vestibular.group",
+      "name": "Inner ear source objects"
+    },
+    {
+      "id": "za.group.brainstem",
+      "name": "Brainstem.g"
+    },
+    {
+      "id": "za.group.cerebellum",
+      "name": "Cerebellum.g"
+    }
+  ],
+  "regions": [
+    {
+      "id": "vestibular",
+      "nameFr": "Oreille interne",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/vestibular-v1/vestibular-core-balanced.glb",
+          "sha256": "8367ec8e4399d2b723aa278042a88a4a20c4992fdcf777da1d8fb298620fc804",
+          "sizeBytes": 676536,
+          "triangleCount": 29496,
+          "drawCallsUpperBound": 4
+        },
+        "mobile": {
+          "url": "/anatomy/vestibular-v1/vestibular-core-mobile.glb",
+          "sha256": "8367ec8e4399d2b723aa278042a88a4a20c4992fdcf777da1d8fb298620fc804",
+          "sizeBytes": 676536,
+          "triangleCount": 29496,
+          "drawCallsUpperBound": 4
+        }
+      }
+    },
+    {
+      "id": "brainstem",
+      "nameFr": "Tronc cérébral · sans pont",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-balanced.glb",
+          "sha256": "c084e3493b41cde0bb8175634b6e1c3174f7ce137ed129b59bb0196f5f483bf4",
+          "sizeBytes": 450696,
+          "triangleCount": 24340,
+          "drawCallsUpperBound": 2
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-mobile.glb",
+          "sha256": "cee0e298b9c928f38dd0fa1bac1976fe9a2177b83264ee72fefb1dd810030fa4",
+          "sizeBytes": 253520,
+          "triangleCount": 13386,
+          "drawCallsUpperBound": 2
+        }
+      }
+    },
+    {
+      "id": "cerebellum",
+      "nameFr": "Cervelet · partiel",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-balanced.glb",
+          "sha256": "0373bea3f83f47670cd461f2fd2d07ff24e4de1b2e405a4fab506acdcaab6de5",
+          "sizeBytes": 3395796,
+          "triangleCount": 140417,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-mobile.glb",
+          "sha256": "5bf5f7b37b9027010496c51d1917d46eeff147d5e452983c5b2b7e7175f31784",
+          "sizeBytes": 1415280,
+          "triangleCount": 77228,
+          "drawCallsUpperBound": 1
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "vestibular-core",
+      "system": "sensory",
+      "region": "vestibular",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/vestibular-v1/vestibular-core-balanced.glb",
+          "sha256": "8367ec8e4399d2b723aa278042a88a4a20c4992fdcf777da1d8fb298620fc804",
+          "sizeBytes": 676536,
+          "triangleCount": 29496,
+          "drawCallsUpperBound": 4
+        },
+        "mobile": {
+          "url": "/anatomy/vestibular-v1/vestibular-core-mobile.glb",
+          "sha256": "8367ec8e4399d2b723aa278042a88a4a20c4992fdcf777da1d8fb298620fc804",
+          "sizeBytes": 676536,
+          "triangleCount": 29496,
+          "drawCallsUpperBound": 4
+        }
+      }
+    },
+    {
+      "packId": "vestibular-context",
+      "system": "nervous",
+      "region": "vestibular",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/vestibular-v1/vestibular-context-balanced.glb",
+          "sha256": "9305e74cba44818f17221c87461c1a3eb9be9d1014cf87a36ad272f7e89c81cd",
+          "sizeBytes": 299560,
+          "triangleCount": 13796,
+          "drawCallsUpperBound": 5
+        },
+        "mobile": {
+          "url": "/anatomy/vestibular-v1/vestibular-context-mobile.glb",
+          "sha256": "d736742b84193c48370280c21a826ff087d4a78d9b47499cf07ba328601e58fa",
+          "sizeBytes": 177352,
+          "triangleCount": 6898,
+          "drawCallsUpperBound": 5
+        }
+      }
+    },
+    {
+      "packId": "brainstem-core",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-balanced.glb",
+          "sha256": "c084e3493b41cde0bb8175634b6e1c3174f7ce137ed129b59bb0196f5f483bf4",
+          "sizeBytes": 450696,
+          "triangleCount": 24340,
+          "drawCallsUpperBound": 2
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-mobile.glb",
+          "sha256": "cee0e298b9c928f38dd0fa1bac1976fe9a2177b83264ee72fefb1dd810030fa4",
+          "sizeBytes": 253520,
+          "triangleCount": 13386,
+          "drawCallsUpperBound": 2
+        }
+      }
+    },
+    {
+      "packId": "cerebellum-core",
+      "system": "central-nervous",
+      "region": "cerebellum",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-balanced.glb",
+          "sha256": "0373bea3f83f47670cd461f2fd2d07ff24e4de1b2e405a4fab506acdcaab6de5",
+          "sizeBytes": 3395796,
+          "triangleCount": 140417,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-mobile.glb",
+          "sha256": "5bf5f7b37b9027010496c51d1917d46eeff147d5e452983c5b2b7e7175f31784",
+          "sizeBytes": 1415280,
+          "triangleCount": 77228,
+          "drawCallsUpperBound": 1
+        }
+      }
+    }
+  ]
+}

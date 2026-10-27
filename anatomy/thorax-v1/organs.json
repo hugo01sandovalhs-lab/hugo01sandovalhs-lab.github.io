@@ -1,0 +1,1247 @@
+{
+  "packId": "thorax-v1",
+  "schemaVersion": 2,
+  "references": {},
+  "organs": [
+    {
+      "id": "organ.anteromedial-basal-segmental-bronchus-of-left-lung",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "(Anteromedial basal segmental bronchus of left lung) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "(Anteromedial basal segmental bronchus of left lung)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-basal-segmental-bronchus-of-left-lung-bviii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Anterior basal segmental bronchus of left lung (BVIII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior basal segmental bronchus of left lung (BVIII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-basal-segmental-bronchus-of-right-lung-bviii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Anterior basal segmental bronchus of right lung (BVIII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior basal segmental bronchus of right lung (BVIII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-papillary-muscle-of-right-ventricle",
+      "kind": "SUBSTRUCTURE",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Anterior papillary muscle of right ventricle",
+      "nameStatus": "GAP",
+      "parent": "organ.right-ventricle",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior papillary muscle of right ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-segmental-bronchus-of-left-lung-biii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Anterior segmental bronchus of left lung (BIII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior segmental bronchus of left lung (BIII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-segmental-bronchus-of-right-lung-biii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Anterior segmental bronchus of right lung (BIII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior segmental bronchus of right lung (BIII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.anterior-semilunar-leaflet-of-pulmonary-valve",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Anterior semilunar leaflet of pulmonary valve",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Anterior semilunar leaflet of pulmonary valve",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.apical-segmental-bronchus-of-right-lung-bi",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Apical segmental bronchus of right lung (BI) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Apical segmental bronchus of right lung (BI)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.apicoposterior-segmental-bronchus-of-left-lung-bi-bii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Apicoposterior segmental bronchus of left lung (BI+BII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Apicoposterior segmental bronchus of left lung (BI+BII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.inferior-leaflet-of-right-atrioventricular-valve",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Inferior leaflet of right atrioventricular valve",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Inferior leaflet of right atrioventricular valve",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.inferior-lingular-segmental-bronchus-of-left-lung-bv",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Inferior lingular segmental bronchus of left lung (BV) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Inferior lingular segmental bronchus of left lung (BV)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.inferior-lobe-of-left-lung",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Inferior lobe of left lung",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Inferior lobe of left lung",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.inferior-papillary-muscle-of-left-ventricle",
+      "kind": "SUBSTRUCTURE",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Inferior papillary muscle of left ventricle",
+      "nameStatus": "GAP",
+      "parent": "organ.left-ventricle",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Inferior papillary muscle of left ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.inferior-papillary-muscle-of-right-ventricle",
+      "kind": "SUBSTRUCTURE",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Inferior papillary muscle of right ventricle",
+      "nameStatus": "GAP",
+      "parent": "organ.right-ventricle",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Inferior papillary muscle of right ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.intermediate-bronchus-r",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Intermediate bronchus.r",
+      "nameStatus": "GAP",
+      "parent": "organ.right-main-bronchus",
+      "children": [
+        "organ.middle-lobar-bronchus-r",
+        "organ.right-inferior-lobar-bronchus"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Intermediate bronchus.r",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.lateral-basal-segmental-bronchus-of-left-lung-bix",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Lateral basal segmental bronchus of left lung (BIX) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Lateral basal segmental bronchus of left lung (BIX)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.lateral-basal-segmental-bronchus-of-right-lung-bix",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Lateral basal segmental bronchus of right lung (BIX) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Lateral basal segmental bronchus of right lung (BIX)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.lateral-segmental-bronchus-of-right-lung-biv",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Lateral segmental bronchus of right lung (BIV) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.middle-lobar-bronchus-r",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Lateral segmental bronchus of right lung (BIV)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-atrium",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Left atrium · groupe source",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left atrium",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-coronary-leaflet",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Left coronary leaflet",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left coronary leaflet",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-inferior-lobar-bronchus",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Left inferior lobar bronchus",
+      "nameStatus": "GAP",
+      "parent": "organ.left-main-bronchus",
+      "children": [
+        "organ.anteromedial-basal-segmental-bronchus-of-left-lung",
+        "organ.anterior-basal-segmental-bronchus-of-left-lung-bviii",
+        "organ.lateral-basal-segmental-bronchus-of-left-lung-bix",
+        "organ.medial-basal-segmental-bronchus-of-left-lung-bvii",
+        "organ.posterior-basal-segmental-bronchus-of-left-lung-bx",
+        "organ.superior-segmental-bronchus-of-left-lung-bvi"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left inferior lobar bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-main-bronchus",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Left main bronchus",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [
+        "organ.left-inferior-lobar-bronchus",
+        "organ.left-superior-lobar-bronchus"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left main bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-semilunar-leaflet-of-pulmonary-valve",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Left semilunar leaflet of pulmonary valve",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left semilunar leaflet of pulmonary valve",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-superior-lobar-bronchus",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Left superior lobar bronchus · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-main-bronchus",
+      "children": [
+        "organ.anterior-segmental-bronchus-of-left-lung-biii",
+        "organ.apicoposterior-segmental-bronchus-of-left-lung-bi-bii",
+        "organ.inferior-lingular-segmental-bronchus-of-left-lung-bv",
+        "organ.superior-lingular-segmental-bronchus-of-left-lung-biv"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left superior lobar bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.left-ventricle",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Left ventricle · groupe source",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [
+        "organ.inferior-papillary-muscle-of-left-ventricle"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Left ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.medial-basal-segmental-bronchus-of-left-lung-bvii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Medial basal segmental bronchus of left lung (BVII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Medial basal segmental bronchus of left lung (BVII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.medial-basal-segmental-bronchus-of-right-lung-bvii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Medial basal segmental bronchus of right lung (BVII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Medial basal segmental bronchus of right lung (BVII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.medial-segmental-bronchus-of-right-lung-bv",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Medial segmental bronchus of right lung (BV) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.middle-lobar-bronchus-r",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Medial segmental bronchus of right lung (BV)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.middle-lobar-bronchus-r",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Middle lobar bronchus.r",
+      "nameStatus": "GAP",
+      "parent": "organ.intermediate-bronchus-r",
+      "children": [
+        "organ.lateral-segmental-bronchus-of-right-lung-biv",
+        "organ.medial-segmental-bronchus-of-right-lung-bv"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Middle lobar bronchus.r",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.non-coronary-leaflet",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Non-coronary leaflet",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Non-coronary leaflet",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.posterior-basal-segmental-bronchus-of-left-lung-bx",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Posterior basal segmental bronchus of left lung (BX)",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Posterior basal segmental bronchus of left lung (BX)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.posterior-basal-segmental-bronchus-of-right-lung-bx",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Posterior basal segmental bronchus of right lung (BX) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Posterior basal segmental bronchus of right lung (BX)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.posterior-segmental-bronchus-of-right-lung-bii",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Posterior segmental bronchus of right lung (BII) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Posterior segmental bronchus of right lung (BII)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-atrium",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Right atrium",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right atrium",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-coronary-leaflet",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Right coronary leaflet",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right coronary leaflet",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-inferior-lobar-bronchus",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Right inferior lobar bronchus",
+      "nameStatus": "GAP",
+      "parent": "organ.intermediate-bronchus-r",
+      "children": [
+        "organ.anterior-basal-segmental-bronchus-of-right-lung-bviii",
+        "organ.lateral-basal-segmental-bronchus-of-right-lung-bix",
+        "organ.medial-basal-segmental-bronchus-of-right-lung-bvii",
+        "organ.posterior-basal-segmental-bronchus-of-right-lung-bx",
+        "organ.superior-segmental-bronchus-of-right-lung-bvi"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right inferior lobar bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-main-bronchus",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Right main bronchus",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [
+        "organ.intermediate-bronchus-r",
+        "organ.right-superior-lobar-bronchus"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right main bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-semilunar-leaflet-of-pulmonary-valve",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Right semilunar leaflet of pulmonary valve",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right semilunar leaflet of pulmonary valve",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-superior-lobar-bronchus",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Right superior lobar bronchus",
+      "nameStatus": "GAP",
+      "parent": "organ.right-main-bronchus",
+      "children": [
+        "organ.anterior-segmental-bronchus-of-right-lung-biii",
+        "organ.apical-segmental-bronchus-of-right-lung-bi",
+        "organ.posterior-segmental-bronchus-of-right-lung-bii"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right superior lobar bronchus",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-ventricle",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Right ventricle",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [
+        "organ.anterior-papillary-muscle-of-right-ventricle",
+        "organ.inferior-papillary-muscle-of-right-ventricle",
+        "organ.septal-papillary-muscle-of-right-ventricle"
+      ],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.septal-leaflet-of-right-atrioventricular-valve",
+      "kind": "ORGAN",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Septal leaflet of right atrioventricular valve",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Septal leaflet of right atrioventricular valve",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.septal-papillary-muscle-of-right-ventricle",
+      "kind": "SUBSTRUCTURE",
+      "system": "cardiovascular-organs",
+      "region": "trunk",
+      "nameFr": "Septal papillary muscle of right ventricle",
+      "nameStatus": "GAP",
+      "parent": "organ.right-ventricle",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Septal papillary muscle of right ventricle",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.superior-lingular-segmental-bronchus-of-left-lung-biv",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Superior lingular segmental bronchus of left lung (BIV) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-superior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Superior lingular segmental bronchus of left lung (BIV)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.superior-lobe-of-left-lung",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Superior lobe of left lung",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Superior lobe of left lung",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.superior-segmental-bronchus-of-left-lung-bvi",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Superior segmental bronchus of left lung (BVI) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.left-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Superior segmental bronchus of left lung (BVI)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.superior-segmental-bronchus-of-right-lung-bvi",
+      "kind": "SUBSTRUCTURE",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Superior segmental bronchus of right lung (BVI) · groupe source",
+      "nameStatus": "GAP",
+      "parent": "organ.right-inferior-lobar-bronchus",
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Superior segmental bronchus of right lung (BVI)",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.trachea",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Trachea",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Trachea",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    },
+    {
+      "id": "organ.right-lung-partial",
+      "kind": "ORGAN",
+      "system": "respiratory",
+      "region": "trunk",
+      "nameFr": "Right lung.g · groupe partiel (lobes supérieur et moyen seulement)",
+      "nameStatus": "GAP",
+      "parent": null,
+      "children": [],
+      "provenance": {
+        "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+        "sourceObject": "Right lung.g",
+        "licenseId": "CC-BY-SA-4.0",
+        "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736"
+      },
+      "relations": {
+        "arterialSupply": [],
+        "venousDrainage": [],
+        "innervation": [],
+        "lymphaticDrainage": []
+      },
+      "crsResources": [],
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED"
+    }
+  ]
+}

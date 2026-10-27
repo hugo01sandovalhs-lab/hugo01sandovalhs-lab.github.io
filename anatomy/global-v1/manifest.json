@@ -1,0 +1,1879 @@
+{
+  "packId": "global-body-v1",
+  "version": "1.0.0",
+  "quality": "GLOBAL/REFERENCE QUALITY",
+  "coverage": "Skeletal navigation from head to feet; right shoulder muscles only. Grouped source concepts are selectable as groups. Not a complete anatomical inventory.",
+  "sourceArchiveSha256": "40665852c49f218326590e204db91064a1ecfc3c6f8cbd7bbbcaac62c7cd409e",
+  "license": {
+    "source": "BodyParts3D 4.0, IS-A tree, obj_99; official NBDC archive",
+    "sourceUrl": "https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip",
+    "author": "The Database Center for Life Science; Kousaku Okubo and BodyParts3D contributors",
+    "license": "CC-BY-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+    "modifications": "Source concept selection; millimetres to metres; glTF Y-up conversion; per-structure decimation and smooth shading. No anatomical reconstruction.",
+    "allowedForProject": true,
+    "attribution": "BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International",
+    "notes": "Official archive licence updated 2025-02-27: https://dbarchive.biosciencedbc.jp/en/bodyparts3d/lic.html . Older mirrors cite CC BY-SA 2.1 JP; this pack uses the official archive, not those mirrors. Attribute source and changes on redistribution. Anatomical accuracy is not independently clinically validated.",
+    "status": "CLEARED"
+  },
+  "systems": [
+    {
+      "id": "skeletal",
+      "nameFr": "Os"
+    },
+    {
+      "id": "muscular",
+      "nameFr": "Muscles (épaule droite)"
+    }
+  ],
+  "regions": [
+    {
+      "id": "head",
+      "nameFr": "Tête",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/head-balanced.glb",
+          "sizeBytes": 902516,
+          "triangleCount": 41063,
+          "drawCallsUpperBound": 7,
+          "sha256": "2f67c6b20f623868b43a819eccc5822cf409b65c5f2778ca505c164cc6cff42b"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/head-mobile.glb",
+          "sizeBytes": 288280,
+          "triangleCount": 12597,
+          "drawCallsUpperBound": 7,
+          "sha256": "eb11eb4f2e123f14d8d63dbc0c9933ed9f1514870a6ce3ccf2ceccc0d3d5b2dc"
+        }
+      }
+    },
+    {
+      "id": "trunk",
+      "nameFr": "Tronc",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/trunk-balanced.glb",
+          "sizeBytes": 325036,
+          "triangleCount": 15546,
+          "drawCallsUpperBound": 3,
+          "sha256": "270221fd3baa796f3b6774646a979fee4b2bb081f57edecb0a131ad07609256d"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/trunk-mobile.glb",
+          "sizeBytes": 130416,
+          "triangleCount": 5734,
+          "drawCallsUpperBound": 3,
+          "sha256": "1b9c06e58fe5ecd95b8770a6353aff998a9926c0e49bd0591e7d343f7165f90b"
+        }
+      }
+    },
+    {
+      "id": "pelvis",
+      "nameFr": "Bassin",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/pelvis-balanced.glb",
+          "sizeBytes": 215288,
+          "triangleCount": 11205,
+          "drawCallsUpperBound": 2,
+          "sha256": "0d1ec31269153e5200ecfa040ecd716f31ea5c5f498ee6a073b73073ca18c185"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/pelvis-mobile.glb",
+          "sizeBytes": 73196,
+          "triangleCount": 3600,
+          "drawCallsUpperBound": 2,
+          "sha256": "15b13741b5adf20c7f49863dca88c79f95c447a518f706819b6214db762faacb"
+        }
+      }
+    },
+    {
+      "id": "upper-limb",
+      "nameFr": "Membres supérieurs",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/upper-limb-balanced.glb",
+          "sizeBytes": 661408,
+          "triangleCount": 32633,
+          "drawCallsUpperBound": 10,
+          "sha256": "ac666399996f57f8b2f4c81b286a2a0bac0d5cca27f40cf2c8fac3dcd2b42882"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/upper-limb-mobile.glb",
+          "sizeBytes": 288240,
+          "triangleCount": 13136,
+          "drawCallsUpperBound": 10,
+          "sha256": "1e0c2c382fa46c815ccf77047ee942d4eeee6d1c404424e6da8ad5b6f4aa2c3c"
+        }
+      }
+    },
+    {
+      "id": "lower-limb",
+      "nameFr": "Membres inférieurs",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/lower-limb-balanced.glb",
+          "sizeBytes": 655704,
+          "triangleCount": 32042,
+          "drawCallsUpperBound": 11,
+          "sha256": "5f6d0d1b840b9203d0d70973e23c2598b2102f884b62b021ea9a43ec3f382469"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/lower-limb-mobile.glb",
+          "sizeBytes": 317948,
+          "triangleCount": 15234,
+          "drawCallsUpperBound": 11,
+          "sha256": "cd5e6502f6236549cbc8009b276be4949a216649be20ebf3a26a13a5f22a083b"
+        }
+      }
+    },
+    {
+      "id": "shoulder",
+      "nameFr": "Épaule droite",
+      "parent": "body",
+      "labId": "shoulder-hd",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/global-v1/shoulder-balanced.glb",
+          "sizeBytes": 517888,
+          "triangleCount": 21178,
+          "drawCallsUpperBound": 8,
+          "sha256": "4dabfb38b81076a7bc0c4d9bef2fe7bb818ae6ede2c93963b2d47a020d3f6727"
+        },
+        "mobile": {
+          "url": "/anatomy/global-v1/shoulder-mobile.glb",
+          "sizeBytes": 289740,
+          "triangleCount": 10594,
+          "drawCallsUpperBound": 8,
+          "sha256": "b1494ca1a7a7d523bfed474e3d0f75361667dc0c74cf34e97d1e4decdfad3a8c"
+        }
+      }
+    }
+  ],
+  "structures": [
+    {
+      "id": "bp3d.FMA52734",
+      "nameFr": "Os frontal",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA52734",
+          "representation": "BP8209",
+          "element": "FJ3200",
+          "sha256": "48583dbbeab8ae243aa4c266b44ca5b26b9c4e1e79976819cfdf5dcb59ec5772"
+        }
+      ],
+      "sourceTriangles": 14510,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA52735",
+      "nameFr": "Os occipital",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA52735",
+          "representation": "BP9177",
+          "element": "FJ3309",
+          "sha256": "c0262a08591e48504c8a53302525377e0c4ad1c165456475f3bb80aab6202d44"
+        }
+      ],
+      "sourceTriangles": 12450,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA9613",
+      "nameFr": "Os pariétaux",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA9613",
+          "representation": "BP9058",
+          "element": "FJ3274",
+          "sha256": "45ab8d9b21c1854c9ea744137560020004e694eba3217a0a3fa0876d02207f65"
+        },
+        {
+          "fma": "FMA9613",
+          "representation": "BP9058",
+          "element": "FJ3380",
+          "sha256": "b6874589f3ddcbeae7153c2d499c23d0083eb18e95d139759529c901384758c8"
+        }
+      ],
+      "sourceTriangles": 26212,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA52737",
+      "nameFr": "Os temporaux",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA52737",
+          "representation": "BP7992",
+          "element": "FJ3281",
+          "sha256": "0dd858a59e8f4f004871f55411f4048bd6a69e4ec55cf6daa08ae34a5dbd974a"
+        },
+        {
+          "fma": "FMA52737",
+          "representation": "BP7992",
+          "element": "FJ3386",
+          "sha256": "b008c86a55b1e7743a56060b4d9cb8f8abcac71d83810f66fc50847181b7fa75"
+        }
+      ],
+      "sourceTriangles": 9864,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA52747",
+      "nameFr": "Os zygomatiques",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA52747",
+          "representation": "BP8496",
+          "element": "FJ3287",
+          "sha256": "eb4176b5641daa0f68da7190b1d3e3c26716cdb3b4337b2c8ecd39dfd47618a1"
+        },
+        {
+          "fma": "FMA52747",
+          "representation": "BP8496",
+          "element": "FJ3392",
+          "sha256": "bda976acce1517ed5349e8a0ad8d71922c148b95bdde18381a5d808f690c3c0f"
+        }
+      ],
+      "sourceTriangles": 2990,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA9711",
+      "nameFr": "Maxillaires",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA9711",
+          "representation": "BP8310",
+          "element": "FJ3269",
+          "sha256": "ba97a37d471d6db65bca375a6413fd09e69e102017fb8a104d07255212d1b576"
+        },
+        {
+          "fma": "FMA9711",
+          "representation": "BP8310",
+          "element": "FJ3375",
+          "sha256": "99fde288184e5d9ccb08ff5547fc1a693b2ef0d6a12a80e47b711f51bd3f7906"
+        }
+      ],
+      "sourceTriangles": 10522,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA52748",
+      "nameFr": "Mandibule",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "head",
+      "sourceParts": [
+        {
+          "fma": "FMA52748",
+          "representation": "BP8107",
+          "element": "FJ3289",
+          "sha256": "c38102c34660e2b767a7b95a341380bf4a52c754c6235fcd322be5c7b8cb1745"
+        }
+      ],
+      "sourceTriangles": 5576,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA9914",
+      "nameFr": "Vertèbres",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "trunk",
+      "sourceParts": [
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3154",
+          "sha256": "abf073c0206696c3baa5cb389831b28a6ce2c6770091065e834b8e4ef50676b1"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3155",
+          "sha256": "1f9c9f6dfcd5585e09abc2cf9a8f54ba1c33df399c6d4dad1a92301d85cd88b3"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3156",
+          "sha256": "ffeebd0dead6ed95395e35c0843888b079acf67543e2820437e99978c69642a0"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3157",
+          "sha256": "67940f16382935851ebeb7a86c926dbf922070f390c438fdbbb56f7b7fb76057"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3158",
+          "sha256": "aa69c48def3434d6a3e1c56fc78af45f01545931fde5422af17d5f98ce9ed8a3"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3159",
+          "sha256": "5e6301d2020ba73167e71c274848ddcbec0f7936d9f26a78f2de8ffa82f095c7"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3160",
+          "sha256": "20c1322be138314f42bbd1be3e69f3f6b590bbca7a8a3cd3414476f207721300"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3161",
+          "sha256": "8f0de55a4feef85c256501a8afff7bb5aa3f77f4681af4c91801da87b54db103"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3162",
+          "sha256": "aa58bbebf75e858d5258926b3f85ef6bc27f765464e87bfc828baf24156bf155"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3163",
+          "sha256": "3080ed603c54120fa5201816d77695354c81ea57275c599e68543bfb6ecb89c1"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3164",
+          "sha256": "a883dd5929817f87eb366a32ca9d82463fd0db40286c49b8adc9e9d1a8cecc34"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3165",
+          "sha256": "2b02ea3874d39295b15a7de2a2b2dd1367cf5a00a5ba5f87519f2a7064b2286f"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3166",
+          "sha256": "cbd60a450a8b2f3ee90ccc655f79a63b090d8a3abf5e6849cf288a7b2d4207f2"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3167",
+          "sha256": "b2485c3707b04f1fd455ee4d3a7b69670ec9c85d4ef9a54463e5c6089f1a69a7"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3168",
+          "sha256": "0b8d0317800abd7c7cb66473cfa23bcecf2b2a8060a4434f32eb9f6ea93c1cc4"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3169",
+          "sha256": "20c3b1dfed3a2ac5e631838ae924379672dac2047186711cfaa819b9a1db6e5b"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3170",
+          "sha256": "ac100888f7e271851c138e8d41a52168070e4fe5c63e8876a4bcfba08f3b59aa"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3171",
+          "sha256": "ebee2a07751de0aa0b33974eea0a9228fed9980f740c619776003d5a38c370c5"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3172",
+          "sha256": "43bc0a1f9b3adffd5f45256b61f75affa15b56c85b387fa733b59de310216104"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3173",
+          "sha256": "3b66eb6444bc7b6ced9e32eacf2518861531b1296eff0e24db41a85bfdbaff66"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3174",
+          "sha256": "531253894a89d60c78a5235bfba826e0c30c21003267258fe1fca244d9090c1a"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3175",
+          "sha256": "34bd592e9f0282eea561a680697beeac655584ca9e4db9232b013535c57e7e61"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3176",
+          "sha256": "8ac9ee6d7631edc066a322af278ed508eab4d9c0919e9a77657ead17c14c8a79"
+        },
+        {
+          "fma": "FMA9914",
+          "representation": "BP7847",
+          "element": "FJ3177",
+          "sha256": "ae446bbf47561c5ff2a2c0a03bfb158ba2581477ae5078ac89cc95b92637adab"
+        }
+      ],
+      "sourceTriangles": 60164,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA7574",
+      "nameFr": "Côtes",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "trunk",
+      "sourceParts": [
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3225",
+          "sha256": "40680b5a3556b5984a5006e01649ff20cb4c88d9d3a7fef79cbad0648a972d54"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3226",
+          "sha256": "24a27d42732af55ad1e7142179f2dd4f906de78b701fbe5c459d8884a026f250"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3227",
+          "sha256": "3b7e5d6673a1be5bc14d72a4ea659d361b143f3fda5bca3ec758c176daba16c5"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3228",
+          "sha256": "803a7134c1e69f640b87f9c6c4a846c869379446e771a1a7c9d18914c331a603"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3229",
+          "sha256": "631b4f63625fa6cc89ad83961b2156abe5878d1baf4a8cb2b2acbaa06bc97f58"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3230",
+          "sha256": "8c097e93d79c610bed49d6c027d25c8439447c20bfb94fa64009b9c4db4d8f5b"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3231",
+          "sha256": "c1259fcdaf463bdecfc0868a3acc964edd4901ab03eb539b28e40462671be1fb"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3232",
+          "sha256": "c40bbcd5c2b98bb94161819a2cf824296289ce68eb62b37f3b175af4aadfd351"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3233",
+          "sha256": "8160b28fd649aadd705a05cc3e6e9cfd7035c44d8258b5a50977ec89fe8e7414"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3234",
+          "sha256": "372c650b2b7bc3f6767aa50a0f5b7e5dac6a15a17aeea5f5017166ba5d328757"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3235",
+          "sha256": "7d9525200958a9545391a2e135649580282108d77f7ae88a34003a56f48f4c8b"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3236",
+          "sha256": "ec09e201beaaa70c24a41eedcef4671118b453361f827be02fb73fc361208db8"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3330",
+          "sha256": "9e62a17a2ea9dc16797beec97bd0925c9692c2a4764391cbc1e289b0120e7aa4"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3331",
+          "sha256": "1fdce776ea65919bf9aa418ec91c872b3eb835daca57dc69a7caa40bb02707d7"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3332",
+          "sha256": "50dd4dac4ebb45fa245d700f7ceac89edd7503cb4caab154b644b0a808da2ecc"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3334",
+          "sha256": "3831c5c578d45fc491e7e72417cc436e04a1a3a1916138e51528ad0b0b212a54"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3336",
+          "sha256": "57084a626a91aa88782f2e836c75450cd90bf19717dfd3f31602b4c674b70c0c"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3338",
+          "sha256": "b239419743f7320b8b1d4f4d96ab41c1ff7fccdc921fa3a99c700a9d6dbd2a6c"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3340",
+          "sha256": "ffca17251de4f457c4952e9d913070eb7a6f767493925ac3d8c3c744941b5dbd"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3342",
+          "sha256": "b2d1f3bc9478c51524628f4e79524290add55800ae85b06ff657f17f4c0c6f1f"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3344",
+          "sha256": "5e45ea5a527d3b7df56c508213020265ed1c8a0d9a99f31454b92059f4f1a95f"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3346",
+          "sha256": "86cc62c1a0a754f2e01a30b5d7179c745f3c2404ef4031ae43568667c4041996"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3347",
+          "sha256": "388e8f3dd5c308fe1454daed2aa3a2fced280d4ec60f97b547b476ca6b0da930"
+        },
+        {
+          "fma": "FMA7574",
+          "representation": "BP8085",
+          "element": "FJ3348",
+          "sha256": "4ef4af4eb8a7ea76479b2d4a1b2973c7d950f6e3aa5593eca4377258222bdaf6"
+        }
+      ],
+      "sourceTriangles": 170762,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA12215",
+      "nameFr": "Sternum (zones sources)",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "trunk",
+      "sourceParts": [
+        {
+          "fma": "FMA12215",
+          "representation": "BP8563",
+          "element": "FJ3290",
+          "sha256": "e94f731d044131260947146ab79fa7c4712865e1aac36a1410003358b96e0692"
+        }
+      ],
+      "sourceTriangles": 2546,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA16585",
+      "nameFr": "Os coxaux",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "pelvis",
+      "sourceParts": [
+        {
+          "fma": "FMA16585",
+          "representation": "BP8769",
+          "element": "FJ3152",
+          "sha256": "99de26e5435a8397b6f39b44ada75319d5e8fa1433e1ea38fdd8de9e079ed9a9"
+        },
+        {
+          "fma": "FMA16585",
+          "representation": "BP8769",
+          "element": "FJ3288",
+          "sha256": "bfc8b489fee0945cd1d387cf64bd3691af8e033fa72f9fccae45cfd55ac88694"
+        }
+      ],
+      "sourceTriangles": 4706,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA16202",
+      "nameFr": "Sacrum",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "pelvis",
+      "sourceParts": [
+        {
+          "fma": "FMA16202",
+          "representation": "BP9174",
+          "element": "FJ3393",
+          "sha256": "cd04cc9f78d758ba34e92896914f647d22d257b9e7e51b97764670f694033489"
+        }
+      ],
+      "sourceTriangles": 9922,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA13323",
+      "nameFr": "Clavicule gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA13323",
+          "representation": "BP8841",
+          "element": "FJ3237",
+          "sha256": "2491009d53eaed99ccb2a802b29402eec715eb8d207fb819fad67b0720195cf2"
+        }
+      ],
+      "sourceTriangles": 1176,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA13396",
+      "nameFr": "Scapula gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA13396",
+          "representation": "BP9121",
+          "element": "FJ3279",
+          "sha256": "e63a5675c6cdbe942322305920241b4a63762d7a65879572400f444fa3d42739"
+        }
+      ],
+      "sourceTriangles": 28106,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23131",
+      "nameFr": "Humérus gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23131",
+          "representation": "BP9191",
+          "element": "FJ3262",
+          "sha256": "4a07066d7c7f17dfeb61797dc31c529d0d6fd3fda8136912ebd8a92ccc1ac6fc"
+        }
+      ],
+      "sourceTriangles": 3844,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23464",
+      "nameFr": "Radius droit",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23464",
+          "representation": "BP8464",
+          "element": "FJ3349",
+          "sha256": "0f824e639b13ea02959734a0d9bd8d7ca67d0b51f531a138d769e1d3b22e0c98"
+        }
+      ],
+      "sourceTriangles": 672,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23465",
+      "nameFr": "Radius gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23465",
+          "representation": "BP9059",
+          "element": "FJ3277",
+          "sha256": "c41a7de7eddf5b91543fb22cf34c7dcad50241ffe1faae6ae22e1be30ca9390a"
+        }
+      ],
+      "sourceTriangles": 632,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23467",
+      "nameFr": "Ulna droit",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23467",
+          "representation": "BP8233",
+          "element": "FJ3391",
+          "sha256": "0aad73148e036c980ab24dfa675fcc1f109e5c60d82c12f3696420cf93cb4a98"
+        }
+      ],
+      "sourceTriangles": 834,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23468",
+      "nameFr": "Ulna gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23468",
+          "representation": "BP9070",
+          "element": "FJ3286",
+          "sha256": "0e3c48a4b664ffc37ef11eb4754c6c7f4adc8fd1d3e54d1286307432c7d04bfc"
+        }
+      ],
+      "sourceTriangles": 824,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA23889",
+      "nameFr": "Os du carpe",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3257",
+          "sha256": "d229f9418122099af72721ebeee60b15b68604f3da3532c0625909dc2ac9520c"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3261",
+          "sha256": "665e0be6779b9bc398e0947eaf190cc4d942e030a05d1a4cfe3ce4270bf8ddbf"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3268",
+          "sha256": "3d4a712f4ee30883f8967d15e8ac70e707d524213814bc7e2fbd51a123619b83"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3276",
+          "sha256": "6162726ac4bcb29a9ba8489570650ba8a323576b03423fb16b27bcd1e55c0658"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3278",
+          "sha256": "5389b07855a3273ac4646092eaf667466eb3f00cf5f78ed90993e82200f550ab"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3283",
+          "sha256": "50006736c04d10ad0af5c94054c9cf64eac6e55fb0cdde25eefcad1170492f93"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3284",
+          "sha256": "e4378dd24f9206c580457f09b75cc05a36f0a1b4049fc2c2ce57da51a2ebd7c5"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3285",
+          "sha256": "3561c1648197f5c2f44c577e2b54c1fbf76b36bbcab207f8b67286ba134cea2c"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3361",
+          "sha256": "982098ff86ccc18075bd4ecf422c4bca732f4d691d249c8f381bac574287c59b"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3367",
+          "sha256": "9c27cf5b75dd149f2469403af7ad68263e1eff29307864ae10481ac647262eba"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3374",
+          "sha256": "82da5ab98cc4f4e311eba2ee20b811bfa392a05d65d9f8c4ed0b9c7fd62880a1"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3382",
+          "sha256": "c5b1ce6020acc6e1feff8f44a3f0b5ec717e3cb3218701fbe86644975d981684"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3383",
+          "sha256": "e96e60d6c03b0581caa5733e3ab65aca6dc3671a476d78f123dcd48ecbee0050"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3388",
+          "sha256": "3b2475587f9ca59d43cb48c7275999f795f97f8b0ed6c68d5b37ff582382d81f"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3389",
+          "sha256": "6823c47b6593463e65b85861e51026b06b76e0196dde1e8fae8b902a32f2a0e8"
+        },
+        {
+          "fma": "FMA23889",
+          "representation": "BP7883",
+          "element": "FJ3390",
+          "sha256": "aa1d02ab7a2b7e2d87125a43fc92f497d9d35323de3d1a8b25185dbb7dd5cc09"
+        }
+      ],
+      "sourceTriangles": 5506,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA9612",
+      "nameFr": "Métacarpiens",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3240",
+          "sha256": "f512f1433a67003297c3ca0fca775c94372313cf3c3de28774a1cd7556e08362"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3243",
+          "sha256": "728fb5278b0e3d2ac9fb0af78ade721c5cb8764144e318a85f07ff9cdb9d7f7d"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3246",
+          "sha256": "fa86f28ff85a3a1e3ac6872a05912deece4d3f8489e08ea4d21b432db304938b"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3249",
+          "sha256": "c5f7a10a04542437ff52fde75f81c5b0b2cba6a4a68c56b829c9e0de2fe1b72f"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3252",
+          "sha256": "ca8db2999ff2d7a14a61e9cbeb83a01011a3557df844ff1c47bb7ac3eaeccdb8"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3350",
+          "sha256": "92ef27746cf2c5b317b88558b42e171128f980ea16414ca6e3647d19d1594382"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3352",
+          "sha256": "6d4e9874925f542124ced9e041f340de5b9c8f872d6ad7e2d483e9d0ab159980"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3354",
+          "sha256": "98a26b8f08e6cd3578706a65d83c2e1e432d7a206202294cd525aa287b75072b"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3356",
+          "sha256": "3bb88e2a98ce1cb0ab8af411397e5edc5777546c394b25d4d4ee585493ee3718"
+        },
+        {
+          "fma": "FMA9612",
+          "representation": "BP8002",
+          "element": "FJ3358",
+          "sha256": "23d26888c325fd6a2de2688e948de72057afaf383db13875445fe597bd2a8bfd"
+        }
+      ],
+      "sourceTriangles": 6146,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA23914",
+      "nameFr": "Phalanges des doigts",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "upper-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3183",
+          "sha256": "53cd2e02023923e93f7651aed2b7b198fdaa9e0c8c8e83167b7ba371a2467396"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3184",
+          "sha256": "56799202f865a5f250cf43da0619baebccde1dae3ee6cd3295e8e8171b4b6158"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3186",
+          "sha256": "52a6da87eb85141fbfc47457b45704fbb360a64d30a9fe13b44edbfcdfcc7a8a"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3187",
+          "sha256": "30fde420c59b5e151de258f9c358c4cc1463de8b85c60e7c4b0a4d7ff573b9ad"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3188",
+          "sha256": "cafb49c4af872d990b2cd7a3ea279e088ea596cea25ee2fdce16b8ebbb04d37c"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3193",
+          "sha256": "00d90373136e996def72c45bb2de42630f7533014b622d36bbf56c4121355e4b"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3194",
+          "sha256": "0edc751d14c5260c93fcde78f868ce49521eec95085a613417a96ddfd6a8965d"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3196",
+          "sha256": "901e109df6e4a98b88dae7cdddda416c4cdd91e58093f1dc51d80ccc7c4e9b34"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3197",
+          "sha256": "4fece0e70293449e99a1b27a0d40c9d4fedd548ff0471fa7c783e5d973cbfba3"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3198",
+          "sha256": "bfae0f42c3cffa63b93403bf6fe1b446dcf0f8fc3e1f8994544ac256830a7b3e"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3291",
+          "sha256": "5c352c5c4329997419f731995176a2e293c749bc4896de37e6feb9d8b122cfac"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3292",
+          "sha256": "11af3f3453af291b20b0f4a9002c3e0906535acdc0004bd175876ddeecb9a094"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3296",
+          "sha256": "a2f1986d020da3ec013aeefb14b11223b18ab4181f0e7f2e56d54faee672e34f"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3297",
+          "sha256": "536be862531dc82ab85bc0f7a49f1492574a39d613db552a1dc98b535e2c83f5"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3299",
+          "sha256": "f0404230992ffcf77f1d3834c6015305abe10c2c40a84e2e920a21d9cc0743f2"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3303",
+          "sha256": "af5955d21314bf58ed06fc28f28467e56ce366b658372b37a5e21936ed9f2c8b"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3304",
+          "sha256": "4cd1972167a669afb93f288cf994101bb32083b95efbfc1696b1781560586ca0"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3306",
+          "sha256": "60a6197d8d7dedcb1039f82613c3c9e968109a9588b89a767ba6a44202f7c830"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3313",
+          "sha256": "3eb71ace606cc3271523e30a405c061290d9da661b59310a682c9d50d9c0ddf1"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3314",
+          "sha256": "8b824d96eed3bc1325665fa99592d58ebd43346b436154fefae6a3c2a98753af"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3316",
+          "sha256": "5dccce5f8ff2f9152fb6b758b8cdd0bcf9fd73cc01a78464a965f69e90994bb6"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3317",
+          "sha256": "099ccb27cdafeb169ffeb8bc73804910f30a6cefccf830d4dbfa6855bfebf46c"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3318",
+          "sha256": "3b327f7169609c03540967f7f8ceba810afda27a427cb5f16ea6641ef429837a"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3322",
+          "sha256": "03cb38d378f7eb94046e45a6fcc214c48b1081b6a35c37a491bde356cb948764"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3323",
+          "sha256": "c3aaebcb7e86e3610f6d7a6896b33a60d7f544f924bdf0c4b639f8dae8c62e55"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3325",
+          "sha256": "ea76430375e036eea61a11c3edcbece711496563e5f2d35e6bee7f1a1cb49569"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3326",
+          "sha256": "5bb35c193650c9e390ad18d2e9ca834c19ab32d478a12446380d8cd50b9b0ca2"
+        },
+        {
+          "fma": "FMA23914",
+          "representation": "BP7900",
+          "element": "FJ3327",
+          "sha256": "84d3df498603c91935ae8edfc341c17ad3e46b910249a98e1e3edd4ccf309e71"
+        }
+      ],
+      "sourceTriangles": 8296,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA24474",
+      "nameFr": "Fémur droit",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24474",
+          "representation": "BP8920",
+          "element": "FJ3365",
+          "sha256": "5eff0f92905dd45bd0e79b1de0144dc15988c73c683468163255ba1452d58037"
+        }
+      ],
+      "sourceTriangles": 3102,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24475",
+      "nameFr": "Fémur gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24475",
+          "representation": "BP9042",
+          "element": "FJ3259",
+          "sha256": "d291cc3619c32c68edb9d29e0b755634c2cb85e3db89f0d0b63a316f879ef86d"
+        }
+      ],
+      "sourceTriangles": 3204,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24477",
+      "nameFr": "Tibia droit",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24477",
+          "representation": "BP8031",
+          "element": "FJ3387",
+          "sha256": "01879d7310938e82eecc02e1115332497e94085ff5cc1fa8eeee47ad1f5d3578"
+        }
+      ],
+      "sourceTriangles": 1664,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24478",
+      "nameFr": "Tibia gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24478",
+          "representation": "BP9202",
+          "element": "FJ3282",
+          "sha256": "40e55d7d28f060be61815603ee5eb1c0ba4c2e93af6fed6b5db7ca88d4ed82ef"
+        }
+      ],
+      "sourceTriangles": 1692,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24480",
+      "nameFr": "Fibula droite",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24480",
+          "representation": "BP8009",
+          "element": "FJ3366",
+          "sha256": "d03fee02cf8eefad1ecfcb9246e3f43ad3c4615c21ce08dc5e2b6901c6395a86"
+        }
+      ],
+      "sourceTriangles": 1142,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24481",
+      "nameFr": "Fibula gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24481",
+          "representation": "BP8251",
+          "element": "FJ3260",
+          "sha256": "b5fbb694e1d881033ec8318b97c41e9d9bedc89a8df9845573b1aac528829331"
+        }
+      ],
+      "sourceTriangles": 1124,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24486",
+      "nameFr": "Patella droite",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24486",
+          "representation": "BP8390",
+          "element": "FJ3381",
+          "sha256": "b513b8cb6b37e3eb4211fd35a4469efdf79de37887a0af8c582efc836a6f6307"
+        }
+      ],
+      "sourceTriangles": 306,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24487",
+      "nameFr": "Patella gauche",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24487",
+          "representation": "BP8378",
+          "element": "FJ3275",
+          "sha256": "768362d04f0f91cea9a28f4aeae9d9f63f3c82450b68d185fa4afefe75d75cc1"
+        }
+      ],
+      "sourceTriangles": 310,
+      "educationalConceptIds": [],
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bp3d.FMA24491",
+      "nameFr": "Os du tarse",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3256",
+          "sha256": "5424e3e394e233213071fbf46f178ed9123da4763d6b64125f32e7b8af1803d8"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3258",
+          "sha256": "1d9269949005e15c6a39fc30cbe5499468e99c074d5ccf48e1032c8689e12664"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3264",
+          "sha256": "6770594a46c236c3585febbea87f2e19ce4e27e83def3f37d2a653888c7e60dc"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3267",
+          "sha256": "60757ac856520feaac072a47e77d7fffb98571d099838a9c628ccad8fba28bbc"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3271",
+          "sha256": "0924246c1693b45623469428ccc7dd86688078edbf7d3e43471f3b8d37e3644d"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3280",
+          "sha256": "56b40cfe8944df25ebed250dbcc80794ee5435e6ab667edddabf4324553bdb3c"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3307",
+          "sha256": "a9608a209e96492213275d1592554855a6acbf0d3a5ec8b05fb5fadfceb5df6c"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3308",
+          "sha256": "0e08f1570755a9675e2556013eda861f00f31fe7ae2139e24584129dfe78d2c2"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3360",
+          "sha256": "b53e7970e822e997e1b05f94f42514d07a3f98edcc63ec7dd7219354ce1d8176"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3364",
+          "sha256": "d5ac55e9aa466b0e14d8d7760f7ef2a6edb0d95cfea56205557f647c451a8079"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3370",
+          "sha256": "3501e34aec7f81bd12b237c9bdccf2c8185d05895637427a92b210edc8423c33"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3373",
+          "sha256": "628c8da7294f477a1c8c50d6445159bbff0ecda91d35dde48f780eec9eb9657c"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3377",
+          "sha256": "7ae757be0a8a55129816045c2e92b32576e2c96fe3b047f7841807092b5bf8f4"
+        },
+        {
+          "fma": "FMA24491",
+          "representation": "BP8035",
+          "element": "FJ3385",
+          "sha256": "8b35f0132c1a05b64f26746fdd0496a2495280cd0c2ac90dbf637fd74f79f54f"
+        }
+      ],
+      "sourceTriangles": 12734,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA24492",
+      "nameFr": "Métatarsiens",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3241",
+          "sha256": "1bb41c84fddb65d6394a55c1f534102794942541212702008a6316f93ba08e16"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3244",
+          "sha256": "4992101f55b96d8fe47abca6e441c902ba1e60429ee41576a1d3a9fc17e4f22a"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3247",
+          "sha256": "84d0c310fd1448e753ac7ed2bda2d62d9dfb8fbe78f749111aaae3a7281ac5cc"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3250",
+          "sha256": "e1656035430f9bf5c5b5bb3de96fabfd18e3d78c6e47c39a403a47bd80dfa61b"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3253",
+          "sha256": "29642383bc5c2d96f7025b2da0b8139f5b71d5d0e1470622745fd9b606575010"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3351",
+          "sha256": "b70e565ec8ad8c09264ae66159415ca4f0cf639598812aac6fcf7b761c3758d3"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3353",
+          "sha256": "f6c034b6b18aee623f510ee40e4171346c084e8bdd092354d634c87fc9af6acf"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3355",
+          "sha256": "90b28dbcd11e3d3a6f253adb1ddaa33f30040a08c71bb3a86242372ea9b6170e"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3357",
+          "sha256": "a5fd57a36b7525de383809bbbb37ff6a56a08ed0fb25af1684085418cc6e8202"
+        },
+        {
+          "fma": "FMA24492",
+          "representation": "BP7914",
+          "element": "FJ3359",
+          "sha256": "cc75b866a2d5ac0317eb3a1d64cef41a65231fab975613d108a4fcdcbc2c58b1"
+        }
+      ],
+      "sourceTriangles": 8366,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bp3d.FMA24493",
+      "nameFr": "Phalanges des orteils",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "lower-limb",
+      "sourceParts": [
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3179",
+          "sha256": "99c76669f09d0758cd2baadbba001728458615370705ef255b933f184689941b"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3180",
+          "sha256": "4b3b06a548ec2cf7eec686f9314dc0fb10fd7a72afc216b88d0b2bf857bb7bf1"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3181",
+          "sha256": "71e7e83288bde730b7f2c04b3150de2d27236f0ed8e9db6a88704f6c1b9c9721"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3182",
+          "sha256": "aa0a98125fc8e3cfafa4eb1a4a00df9f21b7eefbd6d66327561a70be6f15c5d9"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3185",
+          "sha256": "5978ed3c7d728bc03a558c5fe2a7db6fd272d02dc6ed67a1fbb21ce1693d659f"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3189",
+          "sha256": "82657ea63694cff41a774da0ad28110e80ea4951e0ddaafcb2e2646275a22702"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3190",
+          "sha256": "b31499b63bc1798909b2c8cec77b7ebbb422cf2e0f715381601aa7c136b32aa9"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3191",
+          "sha256": "24a38431aa67546c25d938f7c5a572fb1206ffcf6bb6a14281c0322fc3d03bac"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3192",
+          "sha256": "aa15fa88eb0a4643efca0763a8088091f970ae510003dcc78c63e9a3dece5b03"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3195",
+          "sha256": "8053dcba2724d596cd66546934df05d04e5019b3b95ed6ec46795dff1b9abfde"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3293",
+          "sha256": "72afe21185eed25dbab98a1bb7cb28e64012f672bfb3a76d81fdbf5b531f4958"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3294",
+          "sha256": "036f7e9bca027b8b7e6075976249ba90178a9639591878a1b5954d0f7d237c17"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3295",
+          "sha256": "cffbba99a2d64e833cac9545d91dc21092b2d7ecef35dd276a80ff7d35157239"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3298",
+          "sha256": "140d41e53c49bbbaea54972b738b215d3c3ef6bb9c5284f9f7e0516a25e2f68c"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3300",
+          "sha256": "505ff6d5185c0cec018be5a18206a2ccbcc8822f09b9282b9ad2586716d3a3d9"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3301",
+          "sha256": "1da31f6465a4767ab9dc18df433e5e0df0da4e9578d2864b02e5a71e785b5d8c"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3302",
+          "sha256": "dd69a8df55e8ff34f55fe2b906507aac2659be0d2784833b6a0c2046258929e3"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3305",
+          "sha256": "e1a4698c0de159b1851711084ddb96ccaf85022d941f305d670789444d6395bf"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3310",
+          "sha256": "bb72eb8ed4cedf8ad2ab9a0ee2de9c80232ab6bd0e8840259beb59b8bac3bd07"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3311",
+          "sha256": "4787599e0e9fefaa45c40736f38ccacc8ec7e7e867cde692c5ea4f775e97364b"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3312",
+          "sha256": "32b171c096dfe9993503b4f14e58d5b2996dadf73352efc506c04d1098370a5b"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3315",
+          "sha256": "4488ac24e66f25118feb375fbdf19e6e123595cbd26c726c3df1604bec59c7f8"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3319",
+          "sha256": "f8f7d8f026953233fd9412b80ba897fdd329a48108cbfd11578b56dcf9edcc1e"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3320",
+          "sha256": "49b6fc5fe03ba23422e852d1fcd419b94bafbdf69fd20552eca0620e1ed62e6e"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3321",
+          "sha256": "87949e88d498df13a376db05c0b094bae55ade09d5dec4ebd1557a5022d4f8ea"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3324",
+          "sha256": "deeabcf2bf83d7b9f77acf1c1634650805d467188f05505a6898aa3cbbdcea2b"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3328",
+          "sha256": "fd7064f417423cb6224e68867b0f3c5fd46c165a76fba035199e4db235d0616b"
+        },
+        {
+          "fma": "FMA24493",
+          "representation": "BP7751",
+          "element": "FJ3329",
+          "sha256": "3b6770f4dd2bfc54fea30468a90eafd63c21aea8381688ce0912f85502f86f25"
+        }
+      ],
+      "sourceTriangles": 9228,
+      "educationalConceptIds": [],
+      "laterality": "UNSPECIFIED",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "bone.scapula",
+      "nameFr": "Scapula droite",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA13395",
+          "representation": "BP9101",
+          "element": "FJ3384",
+          "sha256": "1641b04e55f9d75bdd6f1f4f07ea596e5dea0a8cb6b348bff47281b8a0bc6e5d"
+        }
+      ],
+      "sourceTriangles": 26172,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bone.clavicle",
+      "nameFr": "Clavicule droite",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA13322",
+          "representation": "BP9271",
+          "element": "FJ3362",
+          "sha256": "9a111cac8351e79dd1315aea90108fe56f78e4bf0159473e6ad727ba91b60e6d"
+        }
+      ],
+      "sourceTriangles": 1146,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "bone.humerus",
+      "nameFr": "Humérus droit",
+      "type": "bone",
+      "system": "skeletal",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA23130",
+          "representation": "BP9206",
+          "element": "FJ3368",
+          "sha256": "85f5445a11ecb029b027db0b9b34933982836d442b19ff531d1ca35a3bc3a237"
+        }
+      ],
+      "sourceTriangles": 3784,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "muscle.deltoid",
+      "nameFr": "Deltoïde droit",
+      "type": "muscle",
+      "system": "muscular",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA34680",
+          "representation": "BP7573",
+          "element": "FJ1468",
+          "sha256": "09eebb4a8d72c91936b0bfde7f35829a58f56103ac158f559186698458bcc616"
+        },
+        {
+          "fma": "FMA34682",
+          "representation": "BP7571",
+          "element": "FJ1467",
+          "sha256": "2f69f1a13c836539abca85d9b77f55f96319ad3fdd75c62f498eabe49b266bfe"
+        },
+        {
+          "fma": "FMA34684",
+          "representation": "BP5607",
+          "element": "FJ1513",
+          "sha256": "ef8308c92fd0d01d8c0d7ffd9238305eefc2f28710d7bb58f451512abdc08e99"
+        }
+      ],
+      "sourceTriangles": 5406,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP"
+    },
+    {
+      "id": "muscle.supraspinatus",
+      "nameFr": "Supra-épineux droit",
+      "type": "muscle",
+      "system": "muscular",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA32544",
+          "representation": "BP4791",
+          "element": "FJ1506",
+          "sha256": "793771eceb64385269ddeeb09245e8c53b67499194f6fa98049b5e17aafa8e0c"
+        }
+      ],
+      "sourceTriangles": 878,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "muscle.infraspinatus",
+      "nameFr": "Infra-épineux droit",
+      "type": "muscle",
+      "system": "muscular",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA32547",
+          "representation": "BP4797",
+          "element": "FJ1500",
+          "sha256": "28f61376a3a88a28d14c44e1c20e9b7a34129772c130afa003daceac801455b1"
+        }
+      ],
+      "sourceTriangles": 866,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "muscle.teres-minor",
+      "nameFr": "Petit rond droit",
+      "type": "muscle",
+      "system": "muscular",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA32553",
+          "representation": "BP4793",
+          "element": "FJ1508",
+          "sha256": "f56e595b86cea659891664706cd4443acddd8dc69e4e5bb3855445eef302641a"
+        }
+      ],
+      "sourceTriangles": 506,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    },
+    {
+      "id": "muscle.subscapularis",
+      "nameFr": "Subscapulaire droit",
+      "type": "muscle",
+      "system": "muscular",
+      "region": "shoulder",
+      "sourceParts": [
+        {
+          "fma": "FMA13414",
+          "representation": "BP4795",
+          "element": "FJ1504",
+          "sha256": "fdcbfd01f93e2d24bd73f5cb259a311c9f9e90de08c41573439844eef5f605dd"
+        }
+      ],
+      "sourceTriangles": 2092,
+      "educationalConceptIds": [],
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT"
+    }
+  ],
+  "overview": {
+    "balanced": {
+      "url": "/anatomy/global-v1/body-balanced.glb",
+      "sizeBytes": 1038096,
+      "triangleCount": 44946,
+      "drawCallsUpperBound": 41,
+      "sha256": "688e29f51edc328b4801b512a3ac4dc4ee1d93ccbf4d823ec15ead62d9db0e5c"
+    },
+    "mobile": {
+      "url": "/anatomy/global-v1/body-mobile.glb",
+      "sizeBytes": 509648,
+      "triangleCount": 20397,
+      "drawCallsUpperBound": 41,
+      "sha256": "a731db95d92d150d183dd3e3b2b26f07d74d5453bf1a53092c7ad4f20e495dc1"
+    }
+  },
+  "groups": []
+}

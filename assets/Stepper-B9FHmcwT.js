@@ -1,0 +1,1 @@
+import{j as e}from"./index-DIGbKrzt.js";const o=({steps:a,current:t})=>e.jsx("div",{className:"stepper","aria-hidden":"true",children:a.map((r,s)=>{const p=s<t?"done":s===t?"current":"todo";return e.jsxs("span",{className:"stepper-item","data-state":p,children:[e.jsx("span",{className:"dot"}),r]},s)})});export{o as S};

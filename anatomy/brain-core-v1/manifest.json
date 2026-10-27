@@ -1,0 +1,636 @@
+{
+  "packId": "brain-core-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "clinicalMappingsStatus": "INACTIVE",
+  "coverage": "Limited deep-brain named objects. No cortical envelope, ventricles, putamen, lentiform overlap, hypothalamus, fornix, internal capsule or pituitary. No nuclei subdivisions or functional connections.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "11 explicitly named deep-brain objects at native resolution and original world coordinates. Replacement materials; identical desktop/mobile bytes. No cuts, repairs, source merging or invented segmentation."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "central-nervous",
+      "nameFr": "Structures cérébrales profondes · partiel",
+      "visibleByDefault": true
+    }
+  ],
+  "structures": [
+    {
+      "id": "za.thalamus-l",
+      "nameFr": "Thalamus gauche",
+      "internationalName": "Thalamus.l",
+      "sourceObject": "Thalamus.l",
+      "parent": "za.group.diencephalon",
+      "sourceParent": "Diencephalon.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Thalamus.l",
+          "geometrySha256": "2af03d081fc155c66f41ec82853b3d467f3e311ad576e6333d7b729107f6da81",
+          "sourceParent": "Diencephalon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 758,
+      "sourceBounds": {
+        "min": [
+          0.000611,
+          -0.009623,
+          1.614152
+        ],
+        "max": [
+          0.023286,
+          0.025807,
+          1.637053
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.thalamus-r",
+      "nameFr": "Thalamus droit",
+      "internationalName": "Thalamus.r",
+      "sourceObject": "Thalamus.r",
+      "parent": "za.group.diencephalon",
+      "sourceParent": "Diencephalon.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Thalamus.r",
+          "geometrySha256": "c136af0172f7208adbbff6dcfeee562668fa39645851a1816dbfb4bbecc4f5fc",
+          "sourceParent": "Diencephalon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 758,
+      "sourceBounds": {
+        "min": [
+          -0.023286,
+          -0.009623,
+          1.614152
+        ],
+        "max": [
+          -0.000611,
+          0.025807,
+          1.637053
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.caudate-nucleus-l",
+      "nameFr": "Noyau caudé gauche",
+      "internationalName": "Caudate nucleus.l",
+      "sourceObject": "Caudate nucleus.l",
+      "parent": "za.group.dorsal-striatum",
+      "sourceParent": "Dorsal striatum.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Caudate nucleus.l",
+          "geometrySha256": "8f31d7acd88ca28d201025471928d04ab0c1d01c8ab8d4f41da810b8ce87ff08",
+          "sourceParent": "Dorsal striatum.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2570,
+      "sourceBounds": {
+        "min": [
+          0.002507,
+          -0.034441,
+          1.612356
+        ],
+        "max": [
+          0.033386,
+          0.027262,
+          1.648353
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.caudate-nucleus-r",
+      "nameFr": "Noyau caudé droit",
+      "internationalName": "Caudate nucleus.r",
+      "sourceObject": "Caudate nucleus.r",
+      "parent": "za.group.dorsal-striatum",
+      "sourceParent": "Dorsal striatum.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Caudate nucleus.r",
+          "geometrySha256": "7c15a27d1daa9b3d97e9d2e0cd7af00be8e4bbd64c944ec745074fdc45efa121",
+          "sourceParent": "Dorsal striatum.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2570,
+      "sourceBounds": {
+        "min": [
+          -0.033386,
+          -0.034441,
+          1.612357
+        ],
+        "max": [
+          -0.002507,
+          0.027262,
+          1.648353
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.globus-pallidus-l",
+      "nameFr": "Globus pallidus gauche",
+      "internationalName": "Globus pallidus.l",
+      "sourceObject": "Globus pallidus.l",
+      "parent": "za.group.corpus-striatum",
+      "sourceParent": "Corpus striatum.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Globus pallidus.l",
+          "geometrySha256": "28d9753f6006ecaca16449010772f82c02e44fb75e468f42587e565253f61e64",
+          "sourceParent": "Corpus striatum.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 5276,
+      "sourceBounds": {
+        "min": [
+          0.012597,
+          -0.020427,
+          1.618213
+        ],
+        "max": [
+          0.028841,
+          0.007989,
+          1.635007
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.globus-pallidus-r",
+      "nameFr": "Globus pallidus droit",
+      "internationalName": "Globus pallidus.r",
+      "sourceObject": "Globus pallidus.r",
+      "parent": "za.group.corpus-striatum",
+      "sourceParent": "Corpus striatum.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Globus pallidus.r",
+          "geometrySha256": "faabe472102d69a40506189afdbc4bf466a543ccd443d67606201acbfc2c4589",
+          "sourceParent": "Corpus striatum.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 5276,
+      "sourceBounds": {
+        "min": [
+          -0.028841,
+          -0.020427,
+          1.618213
+        ],
+        "max": [
+          -0.012597,
+          0.007989,
+          1.635007
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.hippocampus-l",
+      "nameFr": "Hippocampe gauche",
+      "internationalName": "Hippocampus.l",
+      "sourceObject": "Hippocampus.l",
+      "parent": "za.group.limbic-lobe",
+      "sourceParent": "Limbic lobe.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Hippocampus.l",
+          "geometrySha256": "3a0a5d87472f7263bb059f89260eda61fe403caa3c7d0db84e38c356bcccfa28",
+          "sourceParent": "Limbic lobe.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1020,
+      "sourceBounds": {
+        "min": [
+          0.016785,
+          -0.013507,
+          1.601678
+        ],
+        "max": [
+          0.036198,
+          0.028086,
+          1.623006
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.hippocampus-r",
+      "nameFr": "Hippocampe droit",
+      "internationalName": "Hippocampus.r",
+      "sourceObject": "Hippocampus.r",
+      "parent": "za.group.limbic-lobe",
+      "sourceParent": "Limbic lobe.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Hippocampus.r",
+          "geometrySha256": "2622ae0769244dcc58f924a546fa9e562b8801f0d939ad3a5e7d80c2e1d966cf",
+          "sourceParent": "Limbic lobe.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1020,
+      "sourceBounds": {
+        "min": [
+          -0.036198,
+          -0.013507,
+          1.601678
+        ],
+        "max": [
+          -0.016785,
+          0.028086,
+          1.623006
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.amygdaloid-body-l",
+      "nameFr": "Amygdale gauche",
+      "internationalName": "Amygdaloid body.l",
+      "sourceObject": "Amygdaloid body.l",
+      "parent": "za.group.basal-forebrain",
+      "sourceParent": "Basal forebrain.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Amygdaloid body.l",
+          "geometrySha256": "c57d1b0d5357d174583e3a507efb9f326b6dac200f9d03e59c22a63f119c2578",
+          "sourceParent": "Basal forebrain.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 384,
+      "sourceBounds": {
+        "min": [
+          0.016468,
+          -0.018501,
+          1.604253
+        ],
+        "max": [
+          0.033016,
+          -0.00066,
+          1.61664
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.amygdaloid-body-r",
+      "nameFr": "Amygdale droite",
+      "internationalName": "Amygdaloid body.r",
+      "sourceObject": "Amygdaloid body.r",
+      "parent": "za.group.basal-forebrain",
+      "sourceParent": "Basal forebrain.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Amygdaloid body.r",
+          "geometrySha256": "8c60f13965c0facc2b953bc2956ce5f49552c713014f56a635289134de161fb7",
+          "sourceParent": "Basal forebrain.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 384,
+      "sourceBounds": {
+        "min": [
+          -0.033016,
+          -0.018501,
+          1.604253
+        ],
+        "max": [
+          -0.016468,
+          -0.00066,
+          1.61664
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    },
+    {
+      "id": "za.corpus-callosum",
+      "nameFr": "Corps calleux",
+      "internationalName": "Corpus callosum",
+      "sourceObject": "Corpus callosum",
+      "parent": "za.group.commissural-fibres-of-telencephalon",
+      "sourceParent": "Commissural fibres of telencephalon.g",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Corpus callosum",
+          "geometrySha256": "b5e7aa1b6c13ac3e56e25e0b3e95bd2a3f808663da74fc77ce7460a2acfdb909",
+          "sourceParent": "Commissural fibres of telencephalon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 3996,
+      "sourceBounds": {
+        "min": [
+          -0.02499,
+          -0.041233,
+          1.616353
+        ],
+        "max": [
+          0.02499,
+          0.047518,
+          1.65401
+        ]
+      },
+      "limitation": "Objet source nommé intact, sans subdivision nucléaire ni connexion fonctionnelle. Aucun territoire clinique validé ; revue anatomique requise."
+    }
+  ],
+  "groups": [
+    {
+      "id": "za.group.diencephalon",
+      "name": "Diencephalon.g",
+      "parent": "za.group.cerebrum"
+    },
+    {
+      "id": "za.group.cerebrum",
+      "name": "Cerebrum.g",
+      "parent": "za.group.brain"
+    },
+    {
+      "id": "za.group.brain",
+      "name": "Brain.g",
+      "parent": "za.group.central-nervous-system-g"
+    },
+    {
+      "id": "za.group.central-nervous-system-g",
+      "name": "Central nervous system.g",
+      "parent": "za.group.nervous-system-sense-organs-g"
+    },
+    {
+      "id": "za.group.nervous-system-sense-organs-g",
+      "name": "Nervous system & Sense organs.g",
+      "parent": null
+    },
+    {
+      "id": "za.group.dorsal-striatum",
+      "name": "Dorsal striatum.g",
+      "parent": "za.group.corpus-striatum"
+    },
+    {
+      "id": "za.group.corpus-striatum",
+      "name": "Corpus striatum.g",
+      "parent": "za.group.telencephalon"
+    },
+    {
+      "id": "za.group.telencephalon",
+      "name": "Telencephalon.g",
+      "parent": "za.group.cerebrum"
+    },
+    {
+      "id": "za.group.limbic-lobe",
+      "name": "Limbic lobe.g",
+      "parent": "za.group.telencephalon"
+    },
+    {
+      "id": "za.group.basal-forebrain",
+      "name": "Basal forebrain.g",
+      "parent": "za.group.telencephalon"
+    },
+    {
+      "id": "za.group.commissural-fibres-of-telencephalon",
+      "name": "Commissural fibres of telencephalon.g",
+      "parent": "za.group.white-matter-of-telencephalon-l"
+    },
+    {
+      "id": "za.group.white-matter-of-telencephalon-l",
+      "name": "White matter of telencephalon.l",
+      "parent": "za.group.telencephalon"
+    }
+  ],
+  "hierarchyKind": "Existing source ancestry; unexported ancestors remain hierarchy-only",
+  "regions": [
+    {
+      "id": "brain-core",
+      "nameFr": "Cerveau profond · partiel",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brain-core-v1/brain-core-balanced.glb",
+          "sha256": "5c8b536f4d40a1abeae7208a4c986bae7483f1f524952cf57a43bdb5fd75058c",
+          "sizeBytes": 382488,
+          "triangleCount": 24012,
+          "drawCallsUpperBound": 11
+        },
+        "mobile": {
+          "url": "/anatomy/brain-core-v1/brain-core-mobile.glb",
+          "sha256": "5c8b536f4d40a1abeae7208a4c986bae7483f1f524952cf57a43bdb5fd75058c",
+          "sizeBytes": 382488,
+          "triangleCount": 24012,
+          "drawCallsUpperBound": 11
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "brain-core",
+      "system": "central-nervous",
+      "region": "brain-core",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brain-core-v1/brain-core-balanced.glb",
+          "sha256": "5c8b536f4d40a1abeae7208a4c986bae7483f1f524952cf57a43bdb5fd75058c",
+          "sizeBytes": 382488,
+          "triangleCount": 24012,
+          "drawCallsUpperBound": 11
+        },
+        "mobile": {
+          "url": "/anatomy/brain-core-v1/brain-core-mobile.glb",
+          "sha256": "5c8b536f4d40a1abeae7208a4c986bae7483f1f524952cf57a43bdb5fd75058c",
+          "sizeBytes": 382488,
+          "triangleCount": 24012,
+          "drawCallsUpperBound": 11
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+import{H as o,j as t,L as i}from"./index-DIGbKrzt.js";import{c as r}from"./index-hc_W5Ua7.js";function u({target:s}){const{pathname:a,search:n}=o();return s?t.jsx(i,{className:"btn ghost",to:r(s.concept,a+n),title:`${s.structures} structures cartographiées${s.via?` · via la fiche ${s.via}`:""}`,children:"VOIR L'ANATOMIE"}):null}export{u as A};

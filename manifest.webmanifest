@@ -1,0 +1,19 @@
+{
+  "name": "Atlas CRS — Ostéopathie",
+  "short_name": "Atlas CRS",
+  "description": "Révision CRS : fiches, QCM, cas cliniques, flashcards et examens blancs pour l'ostéopathie.",
+  "start_url": ".",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f4f6f9",
+  "theme_color": "#863bff",
+  "lang": "fr",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

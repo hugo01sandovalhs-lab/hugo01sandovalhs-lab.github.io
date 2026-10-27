@@ -1,0 +1,1 @@
+const c=t=>t.replace(/[:;()"«»]/g," ").replace(/\s+/g," ").trim(),o=t=>t.length>90?`${t.slice(0,90).trim()}`:t,r=(t,e)=>o(c(e?`${t.title} ${e.title}`:t.title)),l=(t,e)=>o(c(e?`${t.title} ${e.title}`:t.title)),n=t=>o(c(t));export{l as a,n as b,r as c};

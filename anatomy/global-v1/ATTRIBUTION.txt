@@ -1,0 +1,4 @@
+BodyParts3D, © The Database Center for Life Science licensed under CC Attribution 4.0 International
+https://dbarchive.biosciencedbc.jp/data/bodyparts3d/LATEST/isa_BP3D_4.0_obj_99.zip
+https://creativecommons.org/licenses/by/4.0/
+Source concept selection; millimetres to metres; glTF Y-up conversion; per-structure decimation and smooth shading. No anatomical reconstruction.

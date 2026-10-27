@@ -1,0 +1,1167 @@
+{
+  "packId": "cerebral-vascular-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "clinicalMappingsStatus": "INACTIVE",
+  "coverage": "Partial named cerebral arterial and major dural sinus subset. Whole ICA and vertebral source objects include cervical context; PCA remain bilateral source groups. No sealed Circle of Willis or flow claim.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "22 named source vessels retain published IDs, native resolution and world coordinates. Materials replaced. Identical mobile/desktop geometry; no cuts, repairs or inferred vascular segmentation."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "arterial",
+      "nameFr": "Artères cérébrales · contexte cervical partiel",
+      "visibleByDefault": true
+    },
+    {
+      "id": "venous",
+      "nameFr": "Sinus veineux · sélection partielle",
+      "visibleByDefault": false
+    }
+  ],
+  "structures": [
+    {
+      "id": "za.anterior-cerebral-artery-l",
+      "nameFr": "Anterior cerebral artery.l",
+      "internationalName": "Anterior cerebral artery.l",
+      "sourceObject": "Anterior cerebral artery.l",
+      "parent": "za.internal-carotid-artery-r",
+      "sourceParent": "Internal carotid artery.r",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Anterior cerebral artery.l",
+          "geometrySha256": "f81937bfc5708532d5307b760d44b512ab90bac8671a28820ed5b45283eb3943",
+          "sourceParent": "Internal carotid artery.r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          0.0031,
+          -0.036555,
+          1.604505
+        ],
+        "max": [
+          0.012852,
+          -0.021564,
+          1.6199
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.anterior-cerebral-artery-r",
+      "nameFr": "Anterior cerebral artery.r",
+      "internationalName": "Anterior cerebral artery.r",
+      "sourceObject": "Anterior cerebral artery.r",
+      "parent": "za.internal-carotid-artery-r",
+      "sourceParent": "Internal carotid artery.r",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Anterior cerebral artery.r",
+          "geometrySha256": "54b3896ac82371f468e1e15b6f8a3f65ef376bb66295ed5a85bc7a0b624f79a3",
+          "sourceParent": "Internal carotid artery.r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          -0.012852,
+          -0.036555,
+          1.604505
+        ],
+        "max": [
+          -0.0031,
+          -0.021564,
+          1.6199
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.anterior-communicating-artery",
+      "nameFr": "Anterior communicating artery",
+      "internationalName": "Anterior communicating artery",
+      "sourceObject": "Anterior communicating artery",
+      "parent": "za.group.cerebral-arterial-circle-g",
+      "sourceParent": "Cerebral arterial circle.g",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Anterior communicating artery",
+          "geometrySha256": "3afc201cea906ebf1836f54f771859134b268cd6e3251cea160d48763d0be2a9",
+          "sourceParent": "Cerebral arterial circle.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 106,
+      "sourceBounds": {
+        "min": [
+          -0.003392,
+          -0.023982,
+          1.609177
+        ],
+        "max": [
+          0.003815,
+          -0.022403,
+          1.610507
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.basilar-artery",
+      "nameFr": "Basilar artery",
+      "internationalName": "Basilar artery",
+      "sourceObject": "Basilar artery",
+      "parent": "za.vertebral-artery-r",
+      "sourceParent": "Vertebral artery.r",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Basilar artery",
+          "geometrySha256": "1bd05d91f6f1c5715e1a92f514743b4236cd6f87d3015d69f4fc806e0343c61d",
+          "sourceParent": "Vertebral artery.r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          -0.0011,
+          -0.009324,
+          1.578181
+        ],
+        "max": [
+          0.0011,
+          0.003333,
+          1.602177
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.internal-carotid-artery-l",
+      "nameFr": "Internal carotid artery.l",
+      "internationalName": "Internal carotid artery.l",
+      "sourceObject": "Internal carotid artery.l",
+      "parent": "za.left-common-carotid-artery",
+      "sourceParent": "Left common carotid artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Internal carotid artery.l",
+          "geometrySha256": "e5ab0656a32b7e63bdabe5c96ac3ef643096414068fa397f655d385ceb3dad80",
+          "sourceParent": "Left common carotid artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2880,
+      "sourceBounds": {
+        "min": [
+          0.009076,
+          -0.026492,
+          1.485648
+        ],
+        "max": [
+          0.036817,
+          0.004078,
+          1.603935
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.internal-carotid-artery-r",
+      "nameFr": "Internal carotid artery.r",
+      "internationalName": "Internal carotid artery.r",
+      "sourceObject": "Internal carotid artery.r",
+      "parent": "za.right-common-carotid-artery",
+      "sourceParent": "Right common carotid artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Internal carotid artery.r",
+          "geometrySha256": "aade44529c3af390090087470e91820d9d9f7b89e548c7b59c3b7156e27535d9",
+          "sourceParent": "Right common carotid artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2880,
+      "sourceBounds": {
+        "min": [
+          -0.036817,
+          -0.026492,
+          1.485648
+        ],
+        "max": [
+          -0.009076,
+          0.004078,
+          1.603935
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.middle-cerebral-artery-m1-segment-l",
+      "nameFr": "Middle cerebral artery (M1-segment).l",
+      "internationalName": "Middle cerebral artery (M1-segment).l",
+      "sourceObject": "Middle cerebral artery (M1-segment).l",
+      "parent": "za.internal-carotid-artery-l",
+      "sourceParent": "Internal carotid artery.l",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Middle cerebral artery (M1-segment).l",
+          "geometrySha256": "0f096716abfe3ddd439734db9448dcb114a1313b3ebfda8cf1b1eac2b6c950ff",
+          "sourceParent": "Internal carotid artery.l"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1440,
+      "sourceBounds": {
+        "min": [
+          0.008958,
+          -0.02631,
+          1.602557
+        ],
+        "max": [
+          0.038433,
+          -0.01705,
+          1.617311
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.middle-cerebral-artery-m1-segment-r",
+      "nameFr": "Middle cerebral artery (M1-segment).r",
+      "internationalName": "Middle cerebral artery (M1-segment).r",
+      "sourceObject": "Middle cerebral artery (M1-segment).r",
+      "parent": "za.internal-carotid-artery-r",
+      "sourceParent": "Internal carotid artery.r",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Middle cerebral artery (M1-segment).r",
+          "geometrySha256": "da10465e401bb38d6f4511b633c7e009c56d7d97846d40663bf29bb62b6f1a1f",
+          "sourceParent": "Internal carotid artery.r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1440,
+      "sourceBounds": {
+        "min": [
+          -0.038433,
+          -0.02631,
+          1.602557
+        ],
+        "max": [
+          -0.008958,
+          -0.01705,
+          1.617311
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.middle-cerebral-artery-m3-segment-l",
+      "nameFr": "Middle cerebral artery (M3 segment).l",
+      "internationalName": "Middle cerebral artery (M3 segment).l",
+      "sourceObject": "Middle cerebral artery (M3 segment).l",
+      "parent": "za.insular-branches-of-middle-cerebral-artery-m2-segment-l",
+      "sourceParent": "Insular branches of middle cerebral artery (M2-segment).l",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Middle cerebral artery (M3 segment).l",
+          "geometrySha256": "a644c4f72b8d2f7d264edcf92359b20ca0b3ba83a12945bc6cf0f9bbb67c2f84",
+          "sourceParent": "Insular branches of middle cerebral artery (M2-segment).l"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 3744,
+      "sourceBounds": {
+        "min": [
+          0.046207,
+          -0.01686,
+          1.62157
+        ],
+        "max": [
+          0.060657,
+          0.054779,
+          1.638059
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.middle-cerebral-artery-m3-segment-r",
+      "nameFr": "Middle cerebral artery (M3-segment).r",
+      "internationalName": "Middle cerebral artery (M3-segment).r",
+      "sourceObject": "Middle cerebral artery (M3-segment).r",
+      "parent": "za.insular-branches-of-middle-cerebral-artery-m2-r",
+      "sourceParent": "Insular branches of middle cerebral artery (M2).r",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Middle cerebral artery (M3-segment).r",
+          "geometrySha256": "c120df58a1884b9405611f84a11427098c15ef2be542a743e5ad2b8acc4a30d7",
+          "sourceParent": "Insular branches of middle cerebral artery (M2).r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 3744,
+      "sourceBounds": {
+        "min": [
+          -0.060657,
+          -0.01686,
+          1.62157
+        ],
+        "max": [
+          -0.046207,
+          0.054779,
+          1.638059
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.posterior-cerebral-artery-l",
+      "nameFr": "Posterior cerebral artery.l",
+      "internationalName": "Posterior cerebral artery.l",
+      "sourceObject": "Posterior cerebral artery.l",
+      "parent": "za.basilar-artery",
+      "sourceParent": "Basilar artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "identityStatus": "GROUPED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Posterior cerebral artery.l",
+          "geometrySha256": "ad8f25fe8daf8ab315072a7676723c065780470da3ac453505b9512eee1fb894",
+          "sourceParent": "Basilar artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 12,
+      "sourceTriangles": 33696,
+      "sourceBounds": {
+        "min": [
+          -0.001094,
+          -0.013726,
+          1.59174
+        ],
+        "max": [
+          0.055552,
+          0.06797,
+          1.638439
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.posterior-cerebral-artery-r",
+      "nameFr": "Posterior cerebral artery.r",
+      "internationalName": "Posterior cerebral artery.r",
+      "sourceObject": "Posterior cerebral artery.r",
+      "parent": "za.basilar-artery",
+      "sourceParent": "Basilar artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "identityStatus": "GROUPED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Posterior cerebral artery.r",
+          "geometrySha256": "0d5aa3606d14548c169f9a3397bc636700f7d4a48c0eb401d23377a7e7ef2f09",
+          "sourceParent": "Basilar artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 12,
+      "sourceTriangles": 33696,
+      "sourceBounds": {
+        "min": [
+          -0.055552,
+          -0.013726,
+          1.59174
+        ],
+        "max": [
+          0.001094,
+          0.06797,
+          1.638439
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.posterior-communicating-artery-l",
+      "nameFr": "Posterior communicating artery.l",
+      "internationalName": "Posterior communicating artery.l",
+      "sourceObject": "Posterior communicating artery.l",
+      "parent": "za.group.cerebral-arterial-circle-g",
+      "sourceParent": "Cerebral arterial circle.g",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Posterior communicating artery.l",
+          "geometrySha256": "700c16941a92236ed743bd58f7e5ca5c35ffcc3a53bdb22a9ecf2e9bdbac5246",
+          "sourceParent": "Cerebral arterial circle.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          0.004514,
+          -0.021463,
+          1.603452
+        ],
+        "max": [
+          0.011728,
+          -0.00889,
+          1.607092
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.posterior-communicating-artery-r",
+      "nameFr": "Posterior communicating artery.r",
+      "internationalName": "Posterior communicating artery.r",
+      "sourceObject": "Posterior communicating artery.r",
+      "parent": "za.group.cerebral-arterial-circle-g",
+      "sourceParent": "Cerebral arterial circle.g",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Posterior communicating artery.r",
+          "geometrySha256": "f9ad82f660a65f27b6623bcf5ef639cb637c074cc176803c4d99a7e133c61d54",
+          "sourceParent": "Cerebral arterial circle.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          -0.011728,
+          -0.021463,
+          1.603452
+        ],
+        "max": [
+          -0.004514,
+          -0.00889,
+          1.607092
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.vertebral-artery-l",
+      "nameFr": "Vertebral artery.l",
+      "internationalName": "Vertebral artery.l",
+      "sourceObject": "Vertebral artery.l",
+      "parent": "za.left-subclavian-artery",
+      "sourceParent": "Left subclavian artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Vertebral artery.l",
+          "geometrySha256": "016b1ab02a49932cf3fec048fb58f6caa558a8193f412463c208c29a52238014",
+          "sourceParent": "Left subclavian artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 4896,
+      "sourceBounds": {
+        "min": [
+          -0.000931,
+          0.000332,
+          1.420299
+        ],
+        "max": [
+          0.042198,
+          0.030704,
+          1.579196
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.vertebral-artery-r",
+      "nameFr": "Vertebral artery.r",
+      "internationalName": "Vertebral artery.r",
+      "sourceObject": "Vertebral artery.r",
+      "parent": "za.right-subclavian-artery",
+      "sourceParent": "Right subclavian artery",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "type": "artery",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Vertebral artery.r",
+          "geometrySha256": "5498da7420d29c783fafaec61bfb7f197f728a4929c114a27c6fee6c49330609",
+          "sourceParent": "Right subclavian artery"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 4896,
+      "sourceBounds": {
+        "min": [
+          -0.042198,
+          0.000332,
+          1.420299
+        ],
+        "max": [
+          0.000931,
+          0.030704,
+          1.579196
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.superior-sagittal-sinus",
+      "nameFr": "Superior sagittal sinus",
+      "internationalName": "Superior sagittal sinus",
+      "sourceObject": "Superior sagittal sinus",
+      "parent": "za.group.confluence-of-sinuses-g",
+      "sourceParent": "Confluence of sinuses.g",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Superior sagittal sinus",
+          "geometrySha256": "bd92148c2b36c340a54affb97b99cfcbc853fd6a2e7e655f95015e3a29f2c95e",
+          "sourceParent": "Confluence of sinuses.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 6336,
+      "sourceBounds": {
+        "min": [
+          -0.002,
+          -0.079088,
+          1.5805
+        ],
+        "max": [
+          0.002,
+          0.098086,
+          1.701467
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.straight-sinus",
+      "nameFr": "Straight sinus",
+      "internationalName": "Straight sinus",
+      "sourceObject": "Straight sinus",
+      "parent": "za.group.confluence-of-sinuses-g",
+      "sourceParent": "Confluence of sinuses.g",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Straight sinus",
+          "geometrySha256": "9538ab004e43d274f833395efe51f5d69bd2fd5de6b84229dbde9253a15326b1",
+          "sourceParent": "Confluence of sinuses.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2304,
+      "sourceBounds": {
+        "min": [
+          -0.0015,
+          -0.017185,
+          1.580866
+        ],
+        "max": [
+          0.0015,
+          0.033641,
+          1.613757
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.transverse-sinus-l",
+      "nameFr": "Transverse sinus.l",
+      "internationalName": "Transverse sinus.l",
+      "sourceObject": "Transverse sinus.l",
+      "parent": "za.sigmoid-sinus-l",
+      "sourceParent": "Sigmoid sinus.l",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Transverse sinus.l",
+          "geometrySha256": "e54b0bd529e48e7e174ba1cf92e4c0ac2fa28f5e1696aee2008e785e18193bfc",
+          "sourceParent": "Sigmoid sinus.l"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2016,
+      "sourceBounds": {
+        "min": [
+          -0.000423,
+          0.039031,
+          1.580299
+        ],
+        "max": [
+          0.060569,
+          0.080588,
+          1.594416
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.transverse-sinus-r",
+      "nameFr": "Transverse sinus.r",
+      "internationalName": "Transverse sinus.r",
+      "sourceObject": "Transverse sinus.r",
+      "parent": "za.sigmoid-sinus-r",
+      "sourceParent": "Sigmoid sinus.r",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Transverse sinus.r",
+          "geometrySha256": "7cbd8b19cb5c5bbe07a5e532b903e94ef1c3e000b534cb485be362afd1263f68",
+          "sourceParent": "Sigmoid sinus.r"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2016,
+      "sourceBounds": {
+        "min": [
+          -0.060569,
+          0.039031,
+          1.580299
+        ],
+        "max": [
+          0.000423,
+          0.080588,
+          1.594416
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.sigmoid-sinus-l",
+      "nameFr": "Sigmoid sinus.l",
+      "internationalName": "Sigmoid sinus.l",
+      "sourceObject": "Sigmoid sinus.l",
+      "parent": "za.group.dural-venous-sinuses-g",
+      "sourceParent": "Dural venous sinuses.g",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Sigmoid sinus.l",
+          "geometrySha256": "1ee190547e984a5722292110f1a58cdc75a4143d36fc230d83b6367ecd36237b",
+          "sourceParent": "Dural venous sinuses.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          0.0449,
+          0.021088,
+          1.566708
+        ],
+        "max": [
+          0.060975,
+          0.040755,
+          1.593964
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    },
+    {
+      "id": "za.sigmoid-sinus-r",
+      "nameFr": "Sigmoid sinus.r",
+      "internationalName": "Sigmoid sinus.r",
+      "sourceObject": "Sigmoid sinus.r",
+      "parent": "za.group.dural-venous-sinuses-g",
+      "sourceParent": "Dural venous sinuses.g",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "type": "vein",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Sigmoid sinus.r",
+          "geometrySha256": "97d80233b5e2697f693c639071a9e92cb3bf5f7664fac64251ce94ded16e1c32",
+          "sourceParent": "Dural venous sinuses.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 864,
+      "sourceBounds": {
+        "min": [
+          -0.060975,
+          0.021088,
+          1.566708
+        ],
+        "max": [
+          -0.0449,
+          0.040755,
+          1.593964
+        ]
+      },
+      "limitation": "Objet source intact, ouvertures et composants conservés ; pas de continuité vasculaire ou de territoire validé. Carotides internes et vertébrales entières avec contexte cervical, sans découpe intracrânienne. PCA : 12 composants par côté, non séparés. Revue anatomique requise."
+    }
+  ],
+  "groups": [
+    {
+      "id": "za.right-common-carotid-artery",
+      "name": "Right common carotid artery",
+      "parent": "za.group.systemic-arteries-g"
+    },
+    {
+      "id": "za.group.systemic-arteries-g",
+      "name": "Systemic arteries.g",
+      "parent": "za.group.arterial-system-g"
+    },
+    {
+      "id": "za.group.arterial-system-g",
+      "name": "Arterial system.g",
+      "parent": null
+    },
+    {
+      "id": "za.group.cerebral-arterial-circle-g",
+      "name": "Cerebral arterial circle.g",
+      "parent": "za.group.systemic-arteries-g"
+    },
+    {
+      "id": "za.right-subclavian-artery",
+      "name": "Right subclavian artery",
+      "parent": "za.group.systemic-arteries-g"
+    },
+    {
+      "id": "za.left-common-carotid-artery",
+      "name": "Left common carotid artery",
+      "parent": "za.group.systemic-arteries-g"
+    },
+    {
+      "id": "za.insular-branches-of-middle-cerebral-artery-m2-segment-l",
+      "name": "Insular branches of middle cerebral artery (M2-segment).l",
+      "parent": "za.middle-cerebral-artery-m1-segment-l"
+    },
+    {
+      "id": "za.insular-branches-of-middle-cerebral-artery-m2-r",
+      "name": "Insular branches of middle cerebral artery (M2).r",
+      "parent": "za.middle-cerebral-artery-m1-segment-r"
+    },
+    {
+      "id": "za.left-subclavian-artery",
+      "name": "Left subclavian artery",
+      "parent": "za.group.systemic-arteries-g"
+    },
+    {
+      "id": "za.group.confluence-of-sinuses-g",
+      "name": "Confluence of sinuses.g",
+      "parent": "za.transverse-sinus-r"
+    },
+    {
+      "id": "za.group.dural-venous-sinuses-g",
+      "name": "Dural venous sinuses.g",
+      "parent": "za.group.cranial-veins-g"
+    },
+    {
+      "id": "za.group.cranial-veins-g",
+      "name": "Cranial veins.g",
+      "parent": "za.group.systemic-veins-g"
+    },
+    {
+      "id": "za.group.systemic-veins-g",
+      "name": "Systemic veins.g",
+      "parent": "za.group.venous-system-g"
+    },
+    {
+      "id": "za.group.venous-system-g",
+      "name": "Venous system.g",
+      "parent": null
+    }
+  ],
+  "hierarchyKind": "Existing source ancestry; unexported ancestors remain hierarchy-only",
+  "regions": [
+    {
+      "id": "cerebral-vascular",
+      "nameFr": "Vasculaire cérébral / contexte cervical · partiel",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-arterial-balanced.glb",
+          "sha256": "e3ec4ca4e08ea29a5cffef5c68738dd15b4b0288314f77d896db76e05398051c",
+          "sizeBytes": 1489416,
+          "triangleCount": 97738,
+          "drawCallsUpperBound": 16
+        },
+        "mobile": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-arterial-mobile.glb",
+          "sha256": "e3ec4ca4e08ea29a5cffef5c68738dd15b4b0288314f77d896db76e05398051c",
+          "sizeBytes": 1489416,
+          "triangleCount": 97738,
+          "drawCallsUpperBound": 16
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "cerebral-arterial",
+      "system": "arterial",
+      "region": "cerebral-vascular",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-arterial-balanced.glb",
+          "sha256": "e3ec4ca4e08ea29a5cffef5c68738dd15b4b0288314f77d896db76e05398051c",
+          "sizeBytes": 1489416,
+          "triangleCount": 97738,
+          "drawCallsUpperBound": 16
+        },
+        "mobile": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-arterial-mobile.glb",
+          "sha256": "e3ec4ca4e08ea29a5cffef5c68738dd15b4b0288314f77d896db76e05398051c",
+          "sizeBytes": 1489416,
+          "triangleCount": 97738,
+          "drawCallsUpperBound": 16
+        }
+      }
+    },
+    {
+      "packId": "cerebral-venous",
+      "system": "venous",
+      "region": "cerebral-vascular",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-venous-balanced.glb",
+          "sha256": "39c873d905cb958c92fdcec1b7eaa80c8c670b359081789058129dbdf908db01",
+          "sizeBytes": 249272,
+          "triangleCount": 14400,
+          "drawCallsUpperBound": 6
+        },
+        "mobile": {
+          "url": "/anatomy/cerebral-vascular-v1/cerebral-venous-mobile.glb",
+          "sha256": "39c873d905cb958c92fdcec1b7eaa80c8c670b359081789058129dbdf908db01",
+          "sizeBytes": 249272,
+          "triangleCount": 14400,
+          "drawCallsUpperBound": 6
+        }
+      }
+    }
+  ]
+}

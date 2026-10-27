@@ -1,0 +1,1 @@
+import{cardById as r}from"./cards-BKo5r03Y.js";import{a as o}from"./cases-CBZGMdfr.js";const c=t=>{var a;const e=o.get(t);return e?{to:`/cases/${t}`,label:`Cas — ${e.neutralTitle}`}:{to:`/card/${t}`,label:((a=r.get(t))==null?void 0:a.title)??t}};export{c as r};

@@ -1,0 +1,1828 @@
+{
+  "packId": "cranial-nerves-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "coverage": "12 bilateral named nerve groups with partial/unverified anatomical extent; V1/V2 source groups. V3 omitted. No inferred branches, nuclei or foraminal routes.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "Intact named cranial nerve objects, world coordinates retained, replacement materials, mobile decimation preserving source component/open-edge counts. No anatomical reconstruction."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "nervous",
+      "nameFr": "Cranial nerves · source groups",
+      "visibleByDefault": true
+    },
+    {
+      "id": "central-nervous",
+      "nameFr": "Tronc cérébral / cervelet · contexte partiel",
+      "visibleByDefault": false
+    }
+  ],
+  "structures": [
+    {
+      "id": "nerve.cn06.source-group.l",
+      "nameFr": "Abducens nerve (VI).l · source group",
+      "internationalName": "Abducens nerve (VI).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Abducens nerve (VI).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Abducens nerve (VI).l",
+          "geometrySha256": "fdcbb8df4615c5356fbff9ffc8d5d16b64750f42a4590651d8c16cdc4e8c1e49",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 4936,
+      "sourceBounds": {
+        "min": [
+          0.001178,
+          -0.046537,
+          1.575207
+        ],
+        "max": [
+          0.032537,
+          0.016113,
+          1.600602
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn06.source-group.r",
+      "nameFr": "Abducens nerve (VI).r · source group",
+      "internationalName": "Abducens nerve (VI).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Abducens nerve (VI).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Abducens nerve (VI).r",
+          "geometrySha256": "bc9a7c5cd5b7f6e171c9bc3d81f341daf6baa8abcd1881038d0e433fc678d431",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 4936,
+      "sourceBounds": {
+        "min": [
+          -0.032537,
+          -0.046537,
+          1.575207
+        ],
+        "max": [
+          -0.001178,
+          0.016113,
+          1.600602
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn11.source-group.l",
+      "nameFr": "Accessory nerve (XI).l · source group",
+      "internationalName": "Accessory nerve (XI).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Accessory nerve (XI).l",
+      "sourceParent": "Cervical nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Accessory nerve (XI).l",
+          "geometrySha256": "bade820fcfa9bd442ce5378289d89a253072e3e42962d2d2f41b90c4e758dc88",
+          "sourceParent": "Cervical nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 18,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 15384,
+      "sourceBounds": {
+        "min": [
+          0.002684,
+          -0.012041,
+          1.290049
+        ],
+        "max": [
+          0.059541,
+          0.112311,
+          1.569593
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn11.source-group.r",
+      "nameFr": "Accessory nerve (XI).r · source group",
+      "internationalName": "Accessory nerve (XI).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Accessory nerve (XI).r",
+      "sourceParent": "Cervical nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Accessory nerve (XI).r",
+          "geometrySha256": "6303181a9885227807b27ddc727d2197c9e5be50a48c9d85a42ba7e402f524ce",
+          "sourceParent": "Cervical nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 18,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 15384,
+      "sourceBounds": {
+        "min": [
+          -0.059541,
+          -0.012042,
+          1.290049
+        ],
+        "max": [
+          -0.002684,
+          0.112311,
+          1.569593
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn07.source-group.l",
+      "nameFr": "Facial nerve (VII).l · source group",
+      "internationalName": "Facial nerve (VII).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Facial nerve (VII).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Facial nerve (VII).l",
+          "geometrySha256": "0a8f27f2164a8a1d13ad6059912cb55d83ce5382097f2ea0d30fefb8cb99c9cc",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 36,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 27312,
+      "sourceBounds": {
+        "min": [
+          0.000167,
+          -0.086706,
+          1.508235
+        ],
+        "max": [
+          0.065589,
+          0.017445,
+          1.624374
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn07.source-group.r",
+      "nameFr": "Facial nerve (VII).r · source group",
+      "internationalName": "Facial nerve (VII).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Facial nerve (VII).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Facial nerve (VII).r",
+          "geometrySha256": "3467d7aa46f05cb6a1d061e6e2ffc59a723b144d29bc1926da7cf2da7e9d8987",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 36,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 27312,
+      "sourceBounds": {
+        "min": [
+          -0.065589,
+          -0.086706,
+          1.508235
+        ],
+        "max": [
+          -0.000167,
+          0.017445,
+          1.624374
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn09.source-group.l",
+      "nameFr": "Glossopharyngeal nerve (IX).l · source group",
+      "internationalName": "Glossopharyngeal nerve (IX).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Glossopharyngeal nerve (IX).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Glossopharyngeal nerve (IX).l",
+          "geometrySha256": "8cc1f5916b6496c73e4c33539de82dab3b1ebf6dc187ccf0846f81c25bf9a5f1",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 21,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 13388,
+      "sourceBounds": {
+        "min": [
+          0.001725,
+          -0.033774,
+          1.429714
+        ],
+        "max": [
+          0.040689,
+          0.021074,
+          1.577288
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn09.source-group.r",
+      "nameFr": "Glossopharyngeal nerve (IX).r · source group",
+      "internationalName": "Glossopharyngeal nerve (IX).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Glossopharyngeal nerve (IX).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Glossopharyngeal nerve (IX).r",
+          "geometrySha256": "3f523e2e95e6767b60a7b670137de88ff4936530bd17959341a2a4b90b6ac7fb",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 21,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 13388,
+      "sourceBounds": {
+        "min": [
+          -0.040689,
+          -0.033774,
+          1.429714
+        ],
+        "max": [
+          -0.001725,
+          0.021074,
+          1.577288
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn12.source-group.l",
+      "nameFr": "Hypoglossal nerve (XII).l · source group",
+      "internationalName": "Hypoglossal nerve (XII).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Hypoglossal nerve (XII).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Hypoglossal nerve (XII).l",
+          "geometrySha256": "b04a8f36a6bbbf1f0396b58ee489a3b8873cf651acb26b93ef471c16dcc54b92",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 24,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 16288,
+      "sourceBounds": {
+        "min": [
+          0.001472,
+          -0.054675,
+          1.509294
+        ],
+        "max": [
+          0.027973,
+          0.021057,
+          1.573825
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn12.source-group.r",
+      "nameFr": "Hypoglossal nerve (XII).r · source group",
+      "internationalName": "Hypoglossal nerve (XII).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Hypoglossal nerve (XII).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Hypoglossal nerve (XII).r",
+          "geometrySha256": "463e3da818a997020a4f4f15d99668025c4bc30ceab8045b097db16be23303ab",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 24,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 16288,
+      "sourceBounds": {
+        "min": [
+          -0.027973,
+          -0.054675,
+          1.509294
+        ],
+        "max": [
+          -0.001472,
+          0.021057,
+          1.573825
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn03.source-group.l",
+      "nameFr": "Oculomotor nerve (III).l · source group",
+      "internationalName": "Oculomotor nerve (III).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Oculomotor nerve (III).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Oculomotor nerve (III).l",
+          "geometrySha256": "3e4f7806f8524dfc3d9141c8e6b49ef29293b038dd1e7d18d0a418340ced1064",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 21,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 8780,
+      "sourceBounds": {
+        "min": [
+          0.000166,
+          -0.071844,
+          1.574376
+        ],
+        "max": [
+          0.039085,
+          0.009473,
+          1.608498
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn03.source-group.r",
+      "nameFr": "Oculomotor nerve (III).r · source group",
+      "internationalName": "Oculomotor nerve (III).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Oculomotor nerve (III).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Oculomotor nerve (III).r",
+          "geometrySha256": "139956d92814291fc827a55bfbe01edea1d07d0fbc000db06390c8178775283d",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 21,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 8780,
+      "sourceBounds": {
+        "min": [
+          -0.039085,
+          -0.071844,
+          1.574376
+        ],
+        "max": [
+          -0.000166,
+          0.009473,
+          1.608498
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn01.source-group.l",
+      "nameFr": "Olfactory nerve (I).l · source group",
+      "internationalName": "Olfactory nerve (I).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Olfactory nerve (I).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Olfactory nerve (I).l",
+          "geometrySha256": "8f702cec2a870870063f61793c1605f248bf8235dedcfc9816dad0836f78b90e",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 69,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 26956,
+      "sourceBounds": {
+        "min": [
+          -0.000126,
+          -0.06922,
+          1.596194
+        ],
+        "max": [
+          0.023321,
+          -0.01795,
+          1.61412
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn01.source-group.r",
+      "nameFr": "Olfactory nerve (I).r · source group",
+      "internationalName": "Olfactory nerve (I).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Olfactory nerve (I).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Olfactory nerve (I).r",
+          "geometrySha256": "b2c8cb0a9f82e5b7cb5d34eec3251e978208a2a757354cc8eeca14475194edfe",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 69,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 26956,
+      "sourceBounds": {
+        "min": [
+          -0.023321,
+          -0.06922,
+          1.596194
+        ],
+        "max": [
+          0.000126,
+          -0.01795,
+          1.61412
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn02.source-group.l",
+      "nameFr": "Optic nerve (II).l · source group",
+      "internationalName": "Optic nerve (II).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Optic nerve (II).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Optic nerve (II).l",
+          "geometrySha256": "eb89c19b85482cb898c0cbe302b525fca9b4aacf66f9dccd497517213a65ddf2",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 3,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 1748,
+      "sourceBounds": {
+        "min": [
+          -4.1e-05,
+          -0.061391,
+          1.592796
+        ],
+        "max": [
+          0.030494,
+          -0.018886,
+          1.609531
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn02.source-group.r",
+      "nameFr": "Optic nerve (II).r · source group",
+      "internationalName": "Optic nerve (II).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Optic nerve (II).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Optic nerve (II).r",
+          "geometrySha256": "ceead1be347ca0f5947d6a853774571f4c37d4d95ccca6b6a0677367730225a6",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 3,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 1748,
+      "sourceBounds": {
+        "min": [
+          -0.030494,
+          -0.061391,
+          1.592796
+        ],
+        "max": [
+          4.1e-05,
+          -0.018886,
+          1.609531
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.source-group.l",
+      "nameFr": "Trigeminal nerve (V).l · source group",
+      "internationalName": "Trigeminal nerve (V).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Trigeminal nerve (V).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Trigeminal nerve (V).l",
+          "geometrySha256": "de0e9db79e373b9e0a16da17a59a3bfecfc6e8352af1a7bdbe012481550a315e",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 2344,
+      "sourceBounds": {
+        "min": [
+          0.004532,
+          -0.015391,
+          1.576638
+        ],
+        "max": [
+          0.023275,
+          0.016933,
+          1.600129
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.source-group.r",
+      "nameFr": "Trigeminal nerve (V).r · source group",
+      "internationalName": "Trigeminal nerve (V).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Trigeminal nerve (V).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Trigeminal nerve (V).r",
+          "geometrySha256": "904711a88e848703ed48cd3428174645353ae4f609e23bb948673be57f2a367d",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 2344,
+      "sourceBounds": {
+        "min": [
+          -0.023275,
+          -0.015391,
+          1.576638
+        ],
+        "max": [
+          -0.004532,
+          0.016933,
+          1.600129
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn04.source-group.l",
+      "nameFr": "Trochlear nerve (IV).l · source group",
+      "internationalName": "Trochlear nerve (IV).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Trochlear nerve (IV).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Trochlear nerve (IV).l",
+          "geometrySha256": "8adcf46f7140fe19537a99c18ff07a374eaaddcef0157f7d591a3bd5f90bbbfc",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 3,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 3764,
+      "sourceBounds": {
+        "min": [
+          -0.001752,
+          -0.057872,
+          1.596124
+        ],
+        "max": [
+          0.030227,
+          0.016004,
+          1.606836
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn04.source-group.r",
+      "nameFr": "Trochlear nerve (IV).r · source group",
+      "internationalName": "Trochlear nerve (IV).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Trochlear nerve (IV).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Trochlear nerve (IV).r",
+          "geometrySha256": "200ad5beca6d5711a7f839cf2e7cce46fdb3f2a55c5ce6fe355c61582dcff807",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 3,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 3764,
+      "sourceBounds": {
+        "min": [
+          -0.030227,
+          -0.057872,
+          1.596124
+        ],
+        "max": [
+          0.001752,
+          0.016004,
+          1.606836
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn10.source-group.l",
+      "nameFr": "Vagus nerve (X).l · source group",
+      "internationalName": "Vagus nerve (X).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Vagus nerve (X).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vagus nerve (X).l",
+          "geometrySha256": "7181a7acd59874a10398eee43d2bf1b9dd90914c55bd3949b7525d47b787d4e2",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 21,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. Asymmetric partial extent: left ends at source z=1.346170 m; right at z=1.104921 m. No complete thoraco-abdominal course or named internal branches.",
+      "sourceTriangles": 14540,
+      "sourceBounds": {
+        "min": [
+          0.00163,
+          -0.031157,
+          1.34617
+        ],
+        "max": [
+          0.028959,
+          0.042699,
+          1.575867
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn10.source-group.r",
+      "nameFr": "Vagus nerve (X).r · source group",
+      "internationalName": "Vagus nerve (X).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Vagus nerve (X).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vagus nerve (X).r",
+          "geometrySha256": "bb08b9eee8c63638860c3543acbc5e381f94caf11722f49d527fd46518719f11",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 63,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. Asymmetric partial extent: left ends at source z=1.346170 m; right at z=1.104921 m. No complete thoraco-abdominal course or named internal branches.",
+      "sourceTriangles": 45924,
+      "sourceBounds": {
+        "min": [
+          -0.028959,
+          -0.042736,
+          1.104921
+        ],
+        "max": [
+          0.069816,
+          0.045875,
+          1.575867
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn08.source-group.l",
+      "nameFr": "Vestibulocochlear nerve (VIII).l · source group",
+      "internationalName": "Vestibulocochlear nerve (VIII).l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Vestibulocochlear nerve (VIII).l",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibulocochlear nerve (VIII).l",
+          "geometrySha256": "c9207ab13f3283b27d5f8eab0e1a0b6918a34772d12e0c359bfb97a4b5f1eda5",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 1768,
+      "sourceBounds": {
+        "min": [
+          0.007171,
+          0.004789,
+          1.576639
+        ],
+        "max": [
+          0.021572,
+          0.016054,
+          1.582002
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn08.source-group.r",
+      "nameFr": "Vestibulocochlear nerve (VIII).r · source group",
+      "internationalName": "Vestibulocochlear nerve (VIII).r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Vestibulocochlear nerve (VIII).r",
+      "sourceParent": "Cranial nerves.g",
+      "parent": "cn.group",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Vestibulocochlear nerve (VIII).r",
+          "geometrySha256": "9d858e2244377199729c0f959e1237b51c42c1f377f06a9845857d889fca7623",
+          "sourceParent": "Cranial nerves.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "READY_GROUPED",
+      "componentCount": 6,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted.",
+      "sourceTriangles": 1768,
+      "sourceBounds": {
+        "min": [
+          -0.021572,
+          0.004789,
+          1.576639
+        ],
+        "max": [
+          -0.007171,
+          0.016054,
+          1.582002
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.v1.l",
+      "nameFr": "Ophthalmic nerve.l · source group",
+      "internationalName": "Ophthalmic nerve.l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Ophthalmic nerve.l",
+      "sourceParent": "Trigeminal nerve (V).l",
+      "parent": "nerve.cn05.source-group.l",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Ophthalmic nerve.l",
+          "geometrySha256": "46f3d58e9449cbfa513d11c57d8ea87882510e30eea154c52fa96b85ff992481",
+          "sourceParent": "Trigeminal nerve (V).l"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 15,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 6724,
+      "sourceBounds": {
+        "min": [
+          0.009772,
+          -0.088004,
+          1.597043
+        ],
+        "max": [
+          0.039067,
+          -0.001939,
+          1.633036
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.v1.r",
+      "nameFr": "Ophthalmic nerve.r · source group",
+      "internationalName": "Ophthalmic nerve.r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Ophthalmic nerve.r",
+      "sourceParent": "Trigeminal nerve (V).r",
+      "parent": "nerve.cn05.source-group.r",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Ophthalmic nerve.r",
+          "geometrySha256": "7df4cd3e0c5e3b6f393d36d6e3993803f0db460214642f2d9a6d72a80b340984",
+          "sourceParent": "Trigeminal nerve (V).r"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 15,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 6724,
+      "sourceBounds": {
+        "min": [
+          -0.039067,
+          -0.088004,
+          1.597043
+        ],
+        "max": [
+          -0.009772,
+          -0.001939,
+          1.633036
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.v2.l",
+      "nameFr": "Maxillary nerve.l · source group",
+      "internationalName": "Maxillary nerve.l",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Maxillary nerve.l",
+      "sourceParent": "Trigeminal nerve (V).l",
+      "parent": "nerve.cn05.source-group.l",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "LEFT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Maxillary nerve.l",
+          "geometrySha256": "8e24f57131f1949c9ce75166f8468a6f203417f1637ebac7e9500072a5b4ef14",
+          "sourceParent": "Trigeminal nerve (V).l"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 15,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 7876,
+      "sourceBounds": {
+        "min": [
+          0.010817,
+          -0.079219,
+          1.543926
+        ],
+        "max": [
+          0.033217,
+          -0.001984,
+          1.600078
+        ]
+      }
+    },
+    {
+      "id": "nerve.cn05.v2.r",
+      "nameFr": "Maxillary nerve.r · source group",
+      "internationalName": "Maxillary nerve.r",
+      "labelStatus": "SOURCE_ENGLISH_PENDING_FRENCH_HANDOFF",
+      "sourceObject": "Maxillary nerve.r",
+      "sourceParent": "Trigeminal nerve (V).r",
+      "parent": "nerve.cn05.source-group.r",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "type": "nerve",
+      "laterality": "RIGHT",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Maxillary nerve.r",
+          "geometrySha256": "2bd3cfe1b8889292691154b9749566421b4b447c5ff8067ad252750105bbd4e5",
+          "sourceParent": "Trigeminal nerve (V).r"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "identityGate": "GROUPED_SUPPORTED",
+      "qualityGate": "PARTIAL",
+      "componentCount": 15,
+      "limitation": "Intact named source group; internal components unassigned. Open ends retained; no complete course, origin, nucleus or foraminal path asserted. V3 omitted: only a hierarchy label and separately named divisions, no verified whole V3 mesh.",
+      "sourceTriangles": 7876,
+      "sourceBounds": {
+        "min": [
+          -0.033217,
+          -0.079219,
+          1.543926
+        ],
+        "max": [
+          -0.010817,
+          -0.001984,
+          1.600078
+        ]
+      }
+    },
+    {
+      "id": "organ.midbrain",
+      "nameFr": "Mésencéphale",
+      "internationalName": "Midbrain",
+      "sourceObject": "Midbrain.g",
+      "sourceObjects": [
+        "Midbrain.l",
+        "Midbrain.r"
+      ],
+      "parent": "za.group.brainstem",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Midbrain.l",
+          "geometrySha256": "c115eddd03b6d1d998342e265046bcdb957922ea7967e80cb400705d1868d0d4",
+          "sourceParent": "Midbrain.g"
+        },
+        {
+          "sourceObject": "Midbrain.r",
+          "geometrySha256": "ed01dda70b3ad55fd63583f9ed35b4debbe5b4e45c026bb5791304661810c1b0",
+          "sourceParent": "Midbrain.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Two dangling faces (3057, 5827) removed per source half; no vertex displacement.",
+      "limitation": "Bilateral source halves grouped; human anatomical review pending.",
+      "sourceTriangles": 12180,
+      "sourceBounds": {
+        "min": [
+          -0.014274338260293007,
+          -0.00725344056263566,
+          1.600919246673584
+        ],
+        "max": [
+          0.014274457469582558,
+          0.021229226142168045,
+          1.6174613237380981
+        ]
+      }
+    },
+    {
+      "id": "organ.medulla-oblongata",
+      "nameFr": "Bulbe rachidien",
+      "internationalName": "Medulla oblongata",
+      "sourceObject": "Brainstem.g",
+      "sourceObjects": [
+        "Medulla oblongata.l",
+        "Medulla oblongata.r"
+      ],
+      "parent": "za.group.brainstem",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "SOURCE_GROUP",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Medulla oblongata.l",
+          "geometrySha256": "0bfc0e7d4a6d2d83bc351d7ac9b1659602dcb2080f71e9e493aaa965c7f88888",
+          "sourceParent": "Brainstem.g"
+        },
+        {
+          "sourceObject": "Medulla oblongata.r",
+          "geometrySha256": "7cf7873c1b9331683ac64887e0d1b46e0ba53efd2c1e1c0368eb29f4a811a846",
+          "sourceParent": "Brainstem.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Source assembly only; no reconstruction or displacement.",
+      "limitation": "Bilateral source halves grouped; human anatomical review pending.",
+      "sourceTriangles": 12160,
+      "sourceBounds": {
+        "min": [
+          -0.013010615482926369,
+          0.003898702096194029,
+          1.5388015508651733
+        ],
+        "max": [
+          0.01301073469221592,
+          0.03612752631306648,
+          1.578875184059143
+        ]
+      }
+    },
+    {
+      "id": "organ.cerebellum-partial",
+      "nameFr": "Cervelet · groupe source partiel",
+      "internationalName": "Cerebellum (partial source assembly)",
+      "sourceObject": "Cerebellum.g",
+      "sourceObjects": [
+        "Anterior quadrangular lobule.l",
+        "Anterior quadrangular lobule.r",
+        "Biventral lobule.l",
+        "Biventral lobule.r",
+        "Central lobule",
+        "Culmen",
+        "Declive",
+        "Flocculus.l",
+        "Flocculus.r",
+        "Folium of vermis",
+        "Gracile lobule.l",
+        "Gracile lobule.r",
+        "Inferior semilunar lobule.l",
+        "Inferior semilunar lobule.r",
+        "Lingula of cerebellum",
+        "Nodule of vermis",
+        "Peduncle of flocculus.l",
+        "Peduncle of flocculus.r",
+        "Posterior quadrangular lobule.l",
+        "Posterior quadrangular lobule.r",
+        "Pyramis of vermis",
+        "Superior cerebellar peduncle.l",
+        "Superior cerebellar peduncle.r",
+        "Superior semilunar lobule.l",
+        "Superior semilunar lobule.r",
+        "Tonsil of cerebellum.l",
+        "Tonsil of cerebellum.r",
+        "Tuber of vermis",
+        "Uvula of vermis",
+        "Wing of central lobule.l",
+        "Wing of central lobule.r"
+      ],
+      "parent": "za.group.cerebellum",
+      "system": "central-nervous",
+      "region": "cerebellum",
+      "type": "organ",
+      "laterality": "BILATERAL",
+      "granularity": "PARTIAL",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "licenseId": "CC-BY-SA-4.0",
+      "provenance": [
+        {
+          "sourceObject": "Anterior quadrangular lobule.l",
+          "geometrySha256": "3dc6fe510fbc6f44170ec32d3239da3809f0a01139c2e35fe299fb09218bda0c",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Anterior quadrangular lobule.r",
+          "geometrySha256": "416f77532e624aba2cd29aa1a09d89cdd1c8f68987cf60856f54d722e80fa6a7",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Biventral lobule.l",
+          "geometrySha256": "042cc879f01c281838640026bae3b6d89d1148c6766df1fd50d6621c937541f9",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Biventral lobule.r",
+          "geometrySha256": "639ddefb37a32957e004ce0b900e6fa517bbaabccb2176e209860ae3e8753284",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Central lobule",
+          "geometrySha256": "a51edad309975179fa0b9fd0b40cab650c2ea0bb76fa1a7a1cc545e96205ff3b",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Culmen",
+          "geometrySha256": "b19c45b1747f15d967acf2d7cbc8329f8550668f34a44e5997db11137922b6f2",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Declive",
+          "geometrySha256": "ce83181fb7a865e04fd023c6d89b4d94206dc3c938b8f7788e2d70c3de9a8fed",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Flocculus.l",
+          "geometrySha256": "efd2b30f14739881d4b1be8f1430a55779877f63da54fab9d0396f64f0ce7dff",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Flocculus.r",
+          "geometrySha256": "ff42f7c5934461bbab54ee0b1dbd5dcca95a7eaf911b6b3c8c62ce1d02537317",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Folium of vermis",
+          "geometrySha256": "22f34b8bbdb93c77c83c50d7adf5f193ed4ae39656063459a050a677d33c7284",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Gracile lobule.l",
+          "geometrySha256": "0b60c5aaa646f5d27cb1b6542243ad8045ac8130b0b241f1966e04a7b32101b5",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Gracile lobule.r",
+          "geometrySha256": "bb45eb91a128f2e524ee1ad888927ec72701ed1a63132fdb73cf80d8449158b5",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Inferior semilunar lobule.l",
+          "geometrySha256": "cd9f8d571569521fe066c6d346741d9af1fdc5f78c30755ec126a1e2146fcbb8",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Inferior semilunar lobule.r",
+          "geometrySha256": "37bb9b58a0684f7a3396fc2d373ba77bcaff77e2e9c446112121e8e25b86873f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Lingula of cerebellum",
+          "geometrySha256": "ab742f22feccd3f17ce93b7c4ca3436f802a91a43089ba076515958c0f16c564",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Nodule of vermis",
+          "geometrySha256": "1125438bed7281f59cecc240b55945d9b9875109ee7b0c6e966b4135ff438972",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Peduncle of flocculus.l",
+          "geometrySha256": "65313d1b0a516008227ae8147877687ace27ac5f2b6526338cc67f31a8cd1115",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Peduncle of flocculus.r",
+          "geometrySha256": "74ca69559d6d57be5b967cfbce1afc77ea4d741172fbb3ddc3d82938ac2944f7",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Posterior quadrangular lobule.l",
+          "geometrySha256": "e7f6781df99b508b8b64f5619a6b9f6fc1e07c3bcfa8a1b518dcf06cc5ff558c",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Posterior quadrangular lobule.r",
+          "geometrySha256": "da737b4a7b9cfb7b492ac6237433ae92b0fef96b5107fa6c60d365623e5fb558",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Pyramis of vermis",
+          "geometrySha256": "92c919e0f2d167527872aafd13301a3ca60634ddb18627668e566b39e09c70cc",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior cerebellar peduncle.l",
+          "geometrySha256": "04b78f1500d6e2d10485f1c82ebcb8601f2be5c17e84342d81ce9b690ae04b49",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior cerebellar peduncle.r",
+          "geometrySha256": "2fd63d46c317b88b8c69c7b6f91df4f84516222ea267d4c7ead1c300b4869c6f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior semilunar lobule.l",
+          "geometrySha256": "2ff72b21d49cb5d87b2f5c017b195625812e0f8ec1d751953545dcfc40fac158",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Superior semilunar lobule.r",
+          "geometrySha256": "46cf8d055b7dcda7b95060e32dfc38e0a072f5217f4a949f5ff0e864d476c3ef",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tonsil of cerebellum.l",
+          "geometrySha256": "bf30b9876b7c40ac2d0c87e92eeea7a26de404a20aef71ffc20ce7d8975300d2",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tonsil of cerebellum.r",
+          "geometrySha256": "d67782f0abf45df9ead064318e6ea8d9f082342fd5cb7338b59d94a9283a6c75",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Tuber of vermis",
+          "geometrySha256": "35cbeeddef022441a508064443403f27eb1b76ba732877c5e9cd99712dfe370f",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Uvula of vermis",
+          "geometrySha256": "49ad2ee71a60ecde0b62cb609b8d54b5ed0655552b688bc378628d9977b5521b",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Wing of central lobule.l",
+          "geometrySha256": "ab8288d8bd45dfaed2347653e6f2c10dafff08d73ef0f71a2dab28750b3a4fd8",
+          "sourceParent": "Cerebellum.g"
+        },
+        {
+          "sourceObject": "Wing of central lobule.r",
+          "geometrySha256": "a385077fd7d0efe40fdcf9b21882f09657d9718514b11ebf125de5a3f2496ef4",
+          "sourceParent": "Cerebellum.g"
+        }
+      ],
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "status": "TECHNICALLY_VERIFIED",
+      "transformation": "Source assembly only; no reconstruction or displacement.",
+      "limitation": "31 retained source members; peduncle bases excluded. No complete envelope, hemisphere, vermis or independently identified fine components asserted.",
+      "sourceTriangles": 140417,
+      "sourceBounds": {
+        "min": [
+          -0.049125656485557556,
+          0.009124074131250381,
+          1.5602279901504517
+        ],
+        "max": [
+          0.04912564158439636,
+          0.0801280066370964,
+          1.61314058303833
+        ]
+      }
+    }
+  ],
+  "groups": [
+    {
+      "id": "cn.group",
+      "name": "Cranial nerves.g"
+    },
+    {
+      "id": "za.group.brainstem",
+      "name": "Brainstem.g"
+    },
+    {
+      "id": "za.group.cerebellum",
+      "name": "Cerebellum.g"
+    }
+  ],
+  "regions": [
+    {
+      "id": "cranial-nerves",
+      "nameFr": "Cranial nerves · source groups",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/cranial-nerves-v1/cranial-nerves-core-balanced.glb",
+          "sha256": "7bf8dbc1b31853f0fbf63c0f4455885e003f27013935add4b0c2e546dbbc6211",
+          "sizeBytes": 7182100,
+          "triangleCount": 335000,
+          "drawCallsUpperBound": 28
+        },
+        "mobile": {
+          "url": "/anatomy/cranial-nerves-v1/cranial-nerves-core-mobile.glb",
+          "sha256": "e5c34ce7580199cdd53e57d5830fa4720bba591b989b47cc31180e3d8e8619a5",
+          "sizeBytes": 5153892,
+          "triangleCount": 228560,
+          "drawCallsUpperBound": 28
+        }
+      }
+    },
+    {
+      "id": "brainstem",
+      "nameFr": "Tronc cérébral · sans pont",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-balanced.glb",
+          "sha256": "c084e3493b41cde0bb8175634b6e1c3174f7ce137ed129b59bb0196f5f483bf4",
+          "sizeBytes": 450696,
+          "triangleCount": 24340,
+          "drawCallsUpperBound": 2
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-mobile.glb",
+          "sha256": "cee0e298b9c928f38dd0fa1bac1976fe9a2177b83264ee72fefb1dd810030fa4",
+          "sizeBytes": 253520,
+          "triangleCount": 13386,
+          "drawCallsUpperBound": 2
+        }
+      }
+    },
+    {
+      "id": "cerebellum",
+      "nameFr": "Cervelet · partiel",
+      "parent": "head",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-balanced.glb",
+          "sha256": "0373bea3f83f47670cd461f2fd2d07ff24e4de1b2e405a4fab506acdcaab6de5",
+          "sizeBytes": 3395796,
+          "triangleCount": 140417,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-mobile.glb",
+          "sha256": "5bf5f7b37b9027010496c51d1917d46eeff147d5e452983c5b2b7e7175f31784",
+          "sizeBytes": 1415280,
+          "triangleCount": 77228,
+          "drawCallsUpperBound": 1
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "cranial-nerves-core",
+      "system": "nervous",
+      "region": "cranial-nerves",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/cranial-nerves-v1/cranial-nerves-core-balanced.glb",
+          "sha256": "7bf8dbc1b31853f0fbf63c0f4455885e003f27013935add4b0c2e546dbbc6211",
+          "sizeBytes": 7182100,
+          "triangleCount": 335000,
+          "drawCallsUpperBound": 28
+        },
+        "mobile": {
+          "url": "/anatomy/cranial-nerves-v1/cranial-nerves-core-mobile.glb",
+          "sha256": "e5c34ce7580199cdd53e57d5830fa4720bba591b989b47cc31180e3d8e8619a5",
+          "sizeBytes": 5153892,
+          "triangleCount": 228560,
+          "drawCallsUpperBound": 28
+        }
+      }
+    },
+    {
+      "packId": "brainstem-core",
+      "system": "central-nervous",
+      "region": "brainstem",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-balanced.glb",
+          "sha256": "c084e3493b41cde0bb8175634b6e1c3174f7ce137ed129b59bb0196f5f483bf4",
+          "sizeBytes": 450696,
+          "triangleCount": 24340,
+          "drawCallsUpperBound": 2
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/brainstem-core-mobile.glb",
+          "sha256": "cee0e298b9c928f38dd0fa1bac1976fe9a2177b83264ee72fefb1dd810030fa4",
+          "sizeBytes": 253520,
+          "triangleCount": 13386,
+          "drawCallsUpperBound": 2
+        }
+      }
+    },
+    {
+      "packId": "cerebellum-core",
+      "system": "central-nervous",
+      "region": "cerebellum",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-balanced.glb",
+          "sha256": "0373bea3f83f47670cd461f2fd2d07ff24e4de1b2e405a4fab506acdcaab6de5",
+          "sizeBytes": 3395796,
+          "triangleCount": 140417,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/brainstem-v1/cerebellum-core-mobile.glb",
+          "sha256": "5bf5f7b37b9027010496c51d1917d46eeff147d5e452983c5b2b7e7175f31784",
+          "sizeBytes": 1415280,
+          "triangleCount": 77228,
+          "drawCallsUpperBound": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,578 @@
+{
+  "packId": "abdomen-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "coverage": "Partial abdomen: stomach, pancreas, spleen, two kidneys, duodenum, jejunum and four named colon regions. No liver, gallbladder, ileum, caecum, rectum, ducts or vascular context.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "Eleven exact source objects retained at native resolution in source world coordinates. Replacement materials only. Identical desktop/mobile geometry; no smoothing, reconstruction or inferred anatomy."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "visceral",
+      "nameFr": "Viscères abdominaux · partiels",
+      "visibleByDefault": true
+    }
+  ],
+  "structures": [
+    {
+      "id": "organ.stomach",
+      "nameFr": "Estomac",
+      "internationalName": "Stomach",
+      "sourceObject": "Stomach",
+      "parent": "abdomen.group",
+      "sourceParent": "Digestive canal.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Stomach",
+          "geometrySha256": "17579353e2c822c3b2dde1af4b79a83e26da21f1c4c205eb1e5c6c549eefbd72",
+          "sourceParent": "Digestive canal.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 9468,
+      "sourceBounds": {
+        "min": [
+          -0.028752,
+          -0.088824,
+          1.103678
+        ],
+        "max": [
+          0.105423,
+          0.016495,
+          1.229142
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.pancreas",
+      "nameFr": "Pancréas",
+      "internationalName": "Pancreas",
+      "sourceObject": "Pancreas",
+      "parent": "abdomen.group",
+      "sourceParent": "Digestive system.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Pancreas",
+          "geometrySha256": "c0199551313f321c3dd9cc95de2b06b5e91eca541b37c0f7c1b019744dcbc69b",
+          "sourceParent": "Digestive system.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 5222,
+      "sourceBounds": {
+        "min": [
+          -0.045467,
+          -0.048232,
+          1.079133
+        ],
+        "max": [
+          0.072674,
+          0.005127,
+          1.152873
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.spleen",
+      "nameFr": "Rate",
+      "internationalName": "Spleen",
+      "sourceObject": "Spleen",
+      "parent": "abdomen.group",
+      "sourceParent": "Secondary lymphoid organs.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Spleen",
+          "geometrySha256": "6d0135614ce0cc2987304a73022070d35c7fd744cf7bbf47d56923668b0bb1c5",
+          "sourceParent": "Secondary lymphoid organs.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1330,
+      "sourceBounds": {
+        "min": [
+          0.055634,
+          -0.043115,
+          1.126384
+        ],
+        "max": [
+          0.113868,
+          0.051951,
+          1.196614
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.kidney.l",
+      "nameFr": "Rein gauche",
+      "internationalName": "Kidney.l",
+      "sourceObject": "Kidney.l",
+      "parent": "abdomen.group",
+      "sourceParent": "Urinary system.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Kidney.l",
+          "geometrySha256": "a0a219f84e1038253fc1ce6c1f05cfb3bf93683525a79728b8b8bd8b8231ed93",
+          "sourceParent": "Urinary system.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2982,
+      "sourceBounds": {
+        "min": [
+          0.03284,
+          -0.002038,
+          1.059271
+        ],
+        "max": [
+          0.090383,
+          0.038556,
+          1.165216
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.kidney.r",
+      "nameFr": "Rein droit",
+      "internationalName": "Kidney.r",
+      "sourceObject": "Kidney.r",
+      "parent": "abdomen.group",
+      "sourceParent": "Urinary system.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Kidney.r",
+          "geometrySha256": "22fa9282956e94cf08bb350944fa87cae4d652a5b032d55d83b6c6452df3304b",
+          "sourceParent": "Urinary system.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 2322,
+      "sourceBounds": {
+        "min": [
+          -0.087575,
+          -0.013708,
+          1.041597
+        ],
+        "max": [
+          -0.030428,
+          0.033447,
+          1.146025
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.duodenum",
+      "nameFr": "Duodénum",
+      "internationalName": "Duodenum",
+      "sourceObject": "Duodenum",
+      "parent": "abdomen.group",
+      "sourceParent": "Small intestine.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Duodenum",
+          "geometrySha256": "1fcd39e9ac2f359ee85f1beffc141644dbc427d32b906a600dfe964ffa9ede53",
+          "sourceParent": "Small intestine.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1750,
+      "sourceBounds": {
+        "min": [
+          -0.065624,
+          -0.057379,
+          1.044877
+        ],
+        "max": [
+          0.03233,
+          -0.005746,
+          1.14326
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.jejunum",
+      "nameFr": "Jéjunum",
+      "internationalName": "Jejunum",
+      "sourceObject": "Jejunum",
+      "parent": "abdomen.group",
+      "sourceParent": "Small intestine.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "PARTIAL_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Jejunum",
+          "geometrySha256": "d52684ad10166746a8ec24d34720efede1adc14ae34945e10a453144a55ac5be",
+          "sourceParent": "Small intestine.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 27648,
+      "sourceBounds": {
+        "min": [
+          -0.082608,
+          -0.080975,
+          0.881063
+        ],
+        "max": [
+          0.100365,
+          -0.018891,
+          1.089774
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.colon.ascending",
+      "nameFr": "Côlon ascendant",
+      "internationalName": "Ascending colon",
+      "sourceObject": "Ascending colon",
+      "parent": "abdomen.group",
+      "sourceParent": "Colon.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Ascending colon",
+          "geometrySha256": "8f2db1035a68a230b209ba7fabb65435fd33be4a8a2db62f70150e71dfab2783",
+          "sourceParent": "Colon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 17512,
+      "sourceBounds": {
+        "min": [
+          -0.113825,
+          -0.042978,
+          0.922109
+        ],
+        "max": [
+          -0.062336,
+          0.013121,
+          1.114489
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.colon.transverse",
+      "nameFr": "Côlon transverse",
+      "internationalName": "Transverse colon",
+      "sourceObject": "Transverse colon",
+      "parent": "abdomen.group",
+      "sourceParent": "Colon.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Transverse colon",
+          "geometrySha256": "e0c87e02140bae089e945ba05b93093bcffff2f428f52f51d202eabef1e30f70",
+          "sourceParent": "Colon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 16616,
+      "sourceBounds": {
+        "min": [
+          -0.087292,
+          -0.081291,
+          1.066777
+        ],
+        "max": [
+          0.099143,
+          -0.005984,
+          1.135141
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.colon.descending",
+      "nameFr": "Côlon descendant",
+      "internationalName": "Descending colon",
+      "sourceObject": "Descending colon",
+      "parent": "abdomen.group",
+      "sourceParent": "Colon.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Descending colon",
+          "geometrySha256": "f3de3b9e25f1a15449b0d26164124eee4075b0917eb412577ec1aa589cea2375",
+          "sourceParent": "Colon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 24744,
+      "sourceBounds": {
+        "min": [
+          -0.018241,
+          -0.035735,
+          0.871241
+        ],
+        "max": [
+          0.114278,
+          0.057991,
+          1.134469
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    },
+    {
+      "id": "organ.colon.sigmoid",
+      "nameFr": "Côlon sigmoïde",
+      "internationalName": "Sigmoid colon",
+      "sourceObject": "Sigmoid colon",
+      "parent": "abdomen.group",
+      "sourceParent": "Colon.g",
+      "system": "visceral",
+      "region": "abdomen",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Sigmoid colon",
+          "geometrySha256": "e9d3e14fc4634f24f29f8dc72549542e6aa24ef76886c3b5a9703b64e94deedb",
+          "sourceParent": "Colon.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 3432,
+      "sourceBounds": {
+        "min": [
+          -0.026215,
+          0.022356,
+          0.803749
+        ],
+        "max": [
+          0.035355,
+          0.071764,
+          0.926379
+        ]
+      },
+      "limitation": "Objet source intact. Ouvertures conservées ; continuité digestive, canaux et rapports mésentériques non validés. Couverture abdominale partielle."
+    }
+  ],
+  "groups": [
+    {
+      "id": "abdomen.group",
+      "name": "Partial abdomen source objects"
+    }
+  ],
+  "regions": [
+    {
+      "id": "abdomen",
+      "nameFr": "Abdomen · partiel",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/abdomen-v1/abdomen-core-balanced.glb",
+          "sha256": "fe74cc82ef09024acafbcbf1230f9487ff35baa701267b634c1e48e68446c5ed",
+          "sizeBytes": 2047532,
+          "triangleCount": 113026,
+          "drawCallsUpperBound": 11
+        },
+        "mobile": {
+          "url": "/anatomy/abdomen-v1/abdomen-core-mobile.glb",
+          "sha256": "fe74cc82ef09024acafbcbf1230f9487ff35baa701267b634c1e48e68446c5ed",
+          "sizeBytes": 2047532,
+          "triangleCount": 113026,
+          "drawCallsUpperBound": 11
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "abdomen-core",
+      "system": "visceral",
+      "region": "abdomen",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/abdomen-v1/abdomen-core-balanced.glb",
+          "sha256": "fe74cc82ef09024acafbcbf1230f9487ff35baa701267b634c1e48e68446c5ed",
+          "sizeBytes": 2047532,
+          "triangleCount": 113026,
+          "drawCallsUpperBound": 11
+        },
+        "mobile": {
+          "url": "/anatomy/abdomen-v1/abdomen-core-mobile.glb",
+          "sha256": "fe74cc82ef09024acafbcbf1230f9487ff35baa701267b634c1e48e68446c5ed",
+          "sizeBytes": 2047532,
+          "triangleCount": 113026,
+          "drawCallsUpperBound": 11
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+const e="crs-atlas/lab-ratings/v1",s=()=>{try{const t=localStorage.getItem(e);return t?JSON.parse(t):{}}catch{return{}}},n=t=>{try{localStorage.setItem(e,JSON.stringify(t))}catch{}},o=()=>s(),c=t=>s()[t],g=(t,r)=>{const a=s();a[t]={...r,ratedAt:new Date().toISOString()},n(a)},l=()=>n({});export{o as a,c as g,l as r,g as s};

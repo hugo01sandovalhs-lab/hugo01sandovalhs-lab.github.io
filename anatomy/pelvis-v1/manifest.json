@@ -1,0 +1,410 @@
+{
+  "packId": "pelvis-v1",
+  "version": "1.0.0",
+  "quality": "TECHNICALLY_VERIFIED / ANATOMY_REVIEW_REQUIRED",
+  "coverage": "Partial male urogenital context: urinary bladder, prostate, bilateral testes and seminal glands. Not a complete pelvis or female anatomy pack.",
+  "license": {
+    "source": "Z-Anatomy; upstream BodyParts3D",
+    "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+    "author": "Z-Anatomy; The Database Center for Life Science",
+    "license": "CC-BY-SA-4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "status": "CLEARED",
+    "allowedForProject": true,
+    "attribution": "Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan",
+    "modifications": "Six named source objects retained at native resolution and world coordinates. Replacement materials; identical desktop/mobile geometry. No anatomical reconstruction."
+  },
+  "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+  "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+  "coordinateSpace": "Z-Anatomy original world coordinates; all layers share sourceBlendSha256; no cross-atlas registration",
+  "systems": [
+    {
+      "id": "urinary",
+      "nameFr": "Vessie",
+      "visibleByDefault": true
+    },
+    {
+      "id": "reproductive",
+      "nameFr": "Contexte génital masculin · partiel",
+      "visibleByDefault": true
+    }
+  ],
+  "structures": [
+    {
+      "id": "organ.urinary-bladder",
+      "nameFr": "Vessie",
+      "internationalName": "Urinary bladder",
+      "sourceObject": "Urinary bladder",
+      "parent": "Urinary system.g",
+      "sourceParent": "Urinary system.g",
+      "system": "urinary",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Urinary bladder",
+          "geometrySha256": "039cd317485122ca016185648e98db28a6c630fc2480b6586bb1db17bca8bc60",
+          "sourceParent": "Urinary system.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 3036,
+      "sourceBounds": {
+        "min": [
+          -0.036838,
+          -0.041762,
+          0.829261
+        ],
+        "max": [
+          0.037616,
+          0.041492,
+          0.880593
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    },
+    {
+      "id": "organ.prostate",
+      "nameFr": "Prostate",
+      "internationalName": "Prostate",
+      "sourceObject": "Prostate",
+      "parent": "Male internal genitalia.g",
+      "sourceParent": "Male internal genitalia.g",
+      "system": "reproductive",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "UNSPECIFIED",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Prostate",
+          "geometrySha256": "7073a1fafb450495ead72837b2ea90049e972a0614c64c2b5ffb6ec2e96c8278",
+          "sourceParent": "Male internal genitalia.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 468,
+      "sourceBounds": {
+        "min": [
+          -0.017921,
+          -0.001056,
+          0.809004
+        ],
+        "max": [
+          0.017794,
+          0.031694,
+          0.832427
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    },
+    {
+      "id": "organ.testis.l",
+      "nameFr": "Testicule gauche",
+      "internationalName": "Testis.l",
+      "sourceObject": "Testis.l",
+      "parent": "Male internal genitalia.g",
+      "sourceParent": "Male internal genitalia.g",
+      "system": "reproductive",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Testis.l",
+          "geometrySha256": "cef5987e9d7b88851822ad2cf8a77549422cb41728fa5cbc46746ac9631ad5e0",
+          "sourceParent": "Male internal genitalia.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1356,
+      "sourceBounds": {
+        "min": [
+          0.01015,
+          -0.067521,
+          0.726645
+        ],
+        "max": [
+          0.031226,
+          -0.044786,
+          0.756098
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    },
+    {
+      "id": "organ.testis.r",
+      "nameFr": "Testicule droit",
+      "internationalName": "Testis.r",
+      "sourceObject": "Testis.r",
+      "parent": "Male internal genitalia.g",
+      "sourceParent": "Male internal genitalia.g",
+      "system": "reproductive",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Testis.r",
+          "geometrySha256": "aa17264aed7ff9ca4d827c1311fd9ef829e8589ef7fee1d3ad7a4e57aeced7e0",
+          "sourceParent": "Male internal genitalia.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 1356,
+      "sourceBounds": {
+        "min": [
+          -0.031226,
+          -0.067521,
+          0.726645
+        ],
+        "max": [
+          -0.01015,
+          -0.044786,
+          0.756098
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    },
+    {
+      "id": "organ.seminal-gland.l",
+      "nameFr": "Vésicule séminale gauche",
+      "internationalName": "Seminal gland.l",
+      "sourceObject": "Seminal gland.l",
+      "parent": "Male internal genitalia.g",
+      "sourceParent": "Male internal genitalia.g",
+      "system": "reproductive",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "LEFT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Seminal gland.l",
+          "geometrySha256": "3c017e8432cb59d0a01cb14f890653931cf0bea8212d7a9b44282bab2eb9a4cb",
+          "sourceParent": "Male internal genitalia.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 360,
+      "sourceBounds": {
+        "min": [
+          0.003069,
+          0.023559,
+          0.828263
+        ],
+        "max": [
+          0.035955,
+          0.044529,
+          0.858837
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    },
+    {
+      "id": "organ.seminal-gland.r",
+      "nameFr": "Vésicule séminale droite",
+      "internationalName": "Seminal gland.r",
+      "sourceObject": "Seminal gland.r",
+      "parent": "Male internal genitalia.g",
+      "sourceParent": "Male internal genitalia.g",
+      "system": "reproductive",
+      "region": "pelvis",
+      "type": "organ",
+      "laterality": "RIGHT",
+      "granularity": "INDIVIDUAL_SOURCE_OBJECT",
+      "identityStatus": "INDIVIDUALLY_SUPPORTED",
+      "educationalConceptIds": [],
+      "sourceUrl": "https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip",
+      "licenseId": "CC-BY-SA-4.0",
+      "sourceArchiveSha256": "e029688545627bd0214b269e1063143abb580aad72b2c2445d6d8a9a0d9da736",
+      "sourceBlendSha256": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "sourceHash": "9f08a17ea0115fed80b2a73ecdf0a1bc2ab2f6956f37c593ce23d513ea35afcd",
+      "provenance": [
+        {
+          "sourceObject": "Seminal gland.r",
+          "geometrySha256": "2aa18c23a5e0a2f3c42505dc8cd4868da6f0b008349b0ff3724d5351882afa0a",
+          "sourceParent": "Male internal genitalia.g"
+        }
+      ],
+      "status": "TECHNICALLY_VERIFIED",
+      "reviewStatus": "ANATOMY_REVIEW_REQUIRED",
+      "geometryStatus": "ANATOMY_REVIEW_REQUIRED",
+      "componentCount": 1,
+      "sourceTriangles": 360,
+      "sourceBounds": {
+        "min": [
+          -0.035955,
+          0.023559,
+          0.828263
+        ],
+        "max": [
+          -0.003069,
+          0.044529,
+          0.858837
+        ]
+      },
+      "limitation": "Objet source intact ; contexte urogénital masculin partiel, sans conduits ni subdivisions internes. Testicules : contexte génital, pas des organes intrapelviens. Revue anatomique requise."
+    }
+  ],
+  "groups": [
+    {
+      "id": "pelvis.body",
+      "name": "Body"
+    },
+    {
+      "id": "pelvis.urinary",
+      "name": "urinary",
+      "parent": "pelvis.body"
+    },
+    {
+      "id": "pelvis.urinary.region",
+      "name": "Partial pelvis / urogenital context",
+      "parent": "pelvis.urinary"
+    },
+    {
+      "id": "Urinary system.g",
+      "name": "Urinary system.g",
+      "parent": "pelvis.urinary.region"
+    },
+    {
+      "id": "pelvis.reproductive",
+      "name": "reproductive",
+      "parent": "pelvis.body"
+    },
+    {
+      "id": "pelvis.reproductive.region",
+      "name": "Partial pelvis / urogenital context",
+      "parent": "pelvis.reproductive"
+    },
+    {
+      "id": "Male internal genitalia.g",
+      "name": "Male internal genitalia.g",
+      "parent": "pelvis.reproductive.region"
+    }
+  ],
+  "hierarchyKind": "Navigation catalogue; sourceParent retained separately",
+  "regions": [
+    {
+      "id": "pelvis",
+      "nameFr": "Bassin / contexte urogénital · partiel",
+      "parent": "body",
+      "labId": null,
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/pelvis-v1/pelvis-urinary-balanced.glb",
+          "sha256": "30bbcb7ca7bd0b1c9390bc142c3e8f599d96a54bccf79ab79a8205ea18336e77",
+          "sizeBytes": 55880,
+          "triangleCount": 3036,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/pelvis-v1/pelvis-urinary-mobile.glb",
+          "sha256": "30bbcb7ca7bd0b1c9390bc142c3e8f599d96a54bccf79ab79a8205ea18336e77",
+          "sizeBytes": 55880,
+          "triangleCount": 3036,
+          "drawCallsUpperBound": 1
+        }
+      }
+    }
+  ],
+  "overview": {},
+  "systemPacks": [
+    {
+      "packId": "pelvis-urinary",
+      "system": "urinary",
+      "region": "pelvis",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/pelvis-v1/pelvis-urinary-balanced.glb",
+          "sha256": "30bbcb7ca7bd0b1c9390bc142c3e8f599d96a54bccf79ab79a8205ea18336e77",
+          "sizeBytes": 55880,
+          "triangleCount": 3036,
+          "drawCallsUpperBound": 1
+        },
+        "mobile": {
+          "url": "/anatomy/pelvis-v1/pelvis-urinary-mobile.glb",
+          "sha256": "30bbcb7ca7bd0b1c9390bc142c3e8f599d96a54bccf79ab79a8205ea18336e77",
+          "sizeBytes": 55880,
+          "triangleCount": 3036,
+          "drawCallsUpperBound": 1
+        }
+      }
+    },
+    {
+      "packId": "pelvis-reproductive",
+      "system": "reproductive",
+      "region": "pelvis",
+      "lods": {
+        "balanced": {
+          "url": "/anatomy/pelvis-v1/pelvis-reproductive-balanced.glb",
+          "sha256": "12283463a1012a8360d9963079eae3e43736c1320bf1cc054d7e0bc9ddbe5008",
+          "sizeBytes": 64712,
+          "triangleCount": 3900,
+          "drawCallsUpperBound": 5
+        },
+        "mobile": {
+          "url": "/anatomy/pelvis-v1/pelvis-reproductive-mobile.glb",
+          "sha256": "12283463a1012a8360d9963079eae3e43736c1320bf1cc054d7e0bc9ddbe5008",
+          "sizeBytes": 64712,
+          "triangleCount": 3900,
+          "drawCallsUpperBound": 5
+        }
+      }
+    }
+  ]
+}

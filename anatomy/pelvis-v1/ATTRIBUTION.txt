@@ -1,0 +1,6 @@
+Z-Anatomy — CC BY-SA 4.0; BodyParts3D — CC BY-SA 2.1 Japan
+https://github.com/Z-Anatomy/Models-of-human-anatomy/blob/2b652413b1116c9119e616eabc1e63af3cc6267d/Z-Anatomy.zip
+https://creativecommons.org/licenses/by-sa/4.0/
+Source subset; evaluated source curves/modifiers; glTF Y-up; per-object LOD; smooth shading and replacement materials. No anatomical reconstruction or cross-atlas registration.
+
+Six named source objects retained at native resolution and world coordinates. Replacement materials; identical desktop/mobile geometry. No anatomical reconstruction.
